@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0430b410-6839-4721-a3a2-d5acad001d10",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7624449c-5434-4976-a721-be31de33b8ad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.75963Z",
+            "modified": "2023-09-27T14:45:14.75963Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- Shamoon accepts command line arguments. [5]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "malware-behavior--c343aac2-9261-4eb5-9b82-8aa302ec5be8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

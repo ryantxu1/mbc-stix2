@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--525ae7ba-6a13-417f-b58b-842623fde0d6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--983a9d63-24e8-4027-9049-9a4654e9d495",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.817436Z",
+            "modified": "2023-09-27T14:45:21.817436Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection::Dynamic-link Library Injection (E1055.001) -- Stuxnet injects the entire DLL into another process and then calls the particular export. [1]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-method--6b8bf968-86e7-48d1-8b4f-2f3379a8dd79",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

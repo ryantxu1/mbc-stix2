@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d9f5905f-f624-4b23-929a-a07d60c29379",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bd6f0056-7819-4f14-8e61-24fce408da4c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.011824Z",
+            "modified": "2023-09-27T14:45:16.011824Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- CryptoLocker accepts command line arguments. [2]",
+            "source_ref": "malware--7a71c695-35c9-42c3-af85-23836a034dd0",
+            "target_ref": "malware-behavior--c343aac2-9261-4eb5-9b82-8aa302ec5be8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--90bbf18d-8583-4f9f-b2ad-ce27d70b59f9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e6ca4a97-e31f-4b25-a897-ff20af16e4c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.512265Z",
+            "modified": "2023-09-27T14:45:22.512265Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- Gamut encodes data using XOR. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-method--9aeaac70-0c59-48fb-ad74-ce5f7cecfd08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

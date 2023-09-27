@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4dcfdbd5-a20b-4e0b-a75c-e8df0705f4e5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bf08b901-ecaf-4a82-ad1c-3ddccffe2ec0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.356032Z",
+            "modified": "2023-09-27T14:45:14.356032Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- Mebromi allocates RWX memory. [2]",
+            "source_ref": "malware--60e05661-0641-4dd5-83e1-d398b1e172c0",
+            "target_ref": "malware-behavior--b6e93452-d4d5-40da-b0ce-8f332122d0d6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

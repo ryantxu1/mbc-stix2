@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e67e7a21-6ba3-46ae-a0d7-451a3041c212",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6f843473-db20-41d4-ae21-d080391f8018",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.508115Z",
+            "modified": "2023-09-27T14:45:22.508115Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- Gamut gets common file paths. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-behavior--b5358cc7-381e-4609-9a57-aaa0df4dcdce",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

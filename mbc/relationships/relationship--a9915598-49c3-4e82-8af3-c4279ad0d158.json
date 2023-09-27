@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6b6f05f4-7dfb-454a-8622-d8a7d8941b0e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a9915598-49c3-4e82-8af3-c4279ad0d158",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.82389Z",
+            "modified": "2023-09-27T14:45:21.82389Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Stuxnet checks OS version. [2]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-behavior--5bc0ca72-23ae-4830-a813-6186c3ea9a38",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

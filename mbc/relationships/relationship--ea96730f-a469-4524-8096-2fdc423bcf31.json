@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7eaceb8-99d1-4cf0-81e5-477a1ecd7efe",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ea96730f-a469-4524-8096-2fdc423bcf31",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.054057Z",
+            "modified": "2023-09-27T14:45:17.054057Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Send Data (B0030.001) -- Malware sends collected data about the system to C2 server. [2]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "malware-method--67f52993-2239-4679-95a5-4b4b5e81ea9b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

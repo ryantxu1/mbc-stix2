@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--be98445a-e2b3-4764-872e-31aedd62c62c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6edbd093-1517-44d8-9972-abf706393b1a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.53557Z",
+            "modified": "2023-09-27T14:45:15.53557Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Analysis Tool Discovery (B0013) -- A Poison Ivy variant runs a thread to check if any analysis tools are running by creating specially named pipes that are created by various analysis tools. If one of the named pipes cannot be created, it means one of the analysis tools is running. [3]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-behavior--0f98a3c9-c165-479d-a324-d2b32ad3a165",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

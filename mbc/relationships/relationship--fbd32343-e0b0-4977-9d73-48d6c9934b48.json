@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c5305419-2561-43b6-902d-6fa603c904c1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fbd32343-e0b0-4977-9d73-48d6c9934b48",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.532628Z",
+            "modified": "2023-09-27T14:45:15.532628Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- The Poison Ivy implant is run on the target machine. [2]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-behavior--8445a70a-a0de-4b41-b332-6700946de631",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

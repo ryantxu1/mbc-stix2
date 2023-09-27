@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ece9fbb9-28ad-4666-a6d9-032ebacdc421",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dc37caf3-c59c-4d42-ab3f-25717bf50ef9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.714047Z",
+            "modified": "2023-09-27T14:45:17.714047Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Scheduled Task (T1053) -- GoBotKR schedules a task that adds a registry run key to establish malware persistence. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

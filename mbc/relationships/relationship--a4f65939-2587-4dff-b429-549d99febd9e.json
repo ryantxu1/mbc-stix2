@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f5a41182-942f-4a56-bf24-f5a59bf025f1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a4f65939-2587-4dff-b429-549d99febd9e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.418648Z",
+            "modified": "2023-09-27T14:45:13.418648Z",
+            "relationship_type": "uses",
+            "description": "Process::Allocate Thread Local Storage (C0040) -- Kovter allocates thread local storage. [3]",
+            "source_ref": "malware--d011f078-1da9-4721-8b73-26891d894cc4",
+            "target_ref": "malware-behavior--e54a1038-667a-4473-975a-dfb5bdd720d4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

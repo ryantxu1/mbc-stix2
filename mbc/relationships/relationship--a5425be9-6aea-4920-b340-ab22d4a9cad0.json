@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9d65da38-dc5a-4168-8732-6339f43c8151",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a5425be9-6aea-4920-b340-ab22d4a9cad0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.276081Z",
+            "modified": "2023-09-27T14:45:16.276081Z",
+            "relationship_type": "uses",
+            "description": "Privilege Escalation::Process Injection::Dynamic-Link Library Injection (T1055.001) -- Malware loads every part of the malware from different DLLs.  [1] [2]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

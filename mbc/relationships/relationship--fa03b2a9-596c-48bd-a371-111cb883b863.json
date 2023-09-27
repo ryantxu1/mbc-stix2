@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4686cb65-ce80-4d87-accb-f1b690953165",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fa03b2a9-596c-48bd-a371-111cb883b863",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.657927Z",
+            "modified": "2023-09-27T14:45:19.657927Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Software Packing::UPX (F0001.008) -- Conficker is propagated as a DLL which has been backed using the UPX packer. [2]",
+            "source_ref": "malware--beaa9dfe-de3f-419e-8527-e1352da760e1",
+            "target_ref": "malware-method--69c704c5-c6cd-44d6-8503-4eb0de29f9cf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

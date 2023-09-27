@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3aa35082-8938-47b9-b977-b09745d7050a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f205b1ac-d0f6-4044-97d7-476cbd4e2430",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.659318Z",
+            "modified": "2023-09-27T14:45:12.659318Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection (B0009) -- Vobfus checks for the presence of virtualization software, such as VMware, VirtualBox, and QEMU, by querying the system registry. [1]",
+            "source_ref": "malware--553dde1a-e1f7-40ea-9588-1c5fd5bdd67c",
+            "target_ref": "malware-behavior--5aa72694-00bd-4c8f-9d70-4980d32c2399",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

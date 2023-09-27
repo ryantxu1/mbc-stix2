@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6dbe349-561f-48aa-bfef-83757990bae2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6ddd2104-f5f6-4474-ad0b-a9df5170b6fa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.585125Z",
+            "modified": "2023-09-27T14:45:22.585125Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Alternative Installation Location::Fileless Malware (B0027.001) -- 100 memory-resident modules can be installed. [1]",
+            "source_ref": "malware--14b5901d-6480-4b40-b0dc-ec1a91e27d4c",
+            "target_ref": "malware-method--4e28405f-20b7-4be6-9c85-98f1cd805cc3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

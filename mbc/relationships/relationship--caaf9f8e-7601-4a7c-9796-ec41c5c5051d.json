@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--302b6aaa-6f6e-42dc-a80e-d01525517ac3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--caaf9f8e-7601-4a7c-9796-ec41c5c5051d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.351389Z",
+            "modified": "2023-09-27T14:45:14.351389Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Bootkit (F0013) -- An MBR bootkit and a BIOS bootkit targeting Award BIOS. [1]",
+            "source_ref": "malware--60e05661-0641-4dd5-83e1-d398b1e172c0",
+            "target_ref": "malware-behavior--7d03e962-93df-4b6f-bed2-f0b95c69bb6a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

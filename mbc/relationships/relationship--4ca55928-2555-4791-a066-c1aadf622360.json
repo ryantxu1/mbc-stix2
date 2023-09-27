@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f120463-1ad5-4d39-9862-0e61f51cabf8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4ca55928-2555-4791-a066-c1aadf622360",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.535129Z",
+            "modified": "2023-09-27T14:45:15.535129Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::Hardware Breakpoints (B0001.005) -- A Poison Ivy variant checks for breakpoints and exits immediately if found. [3]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-method--4027265d-a2ef-496a-9b13-2bc44ad5e226",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

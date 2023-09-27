@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5556f9c6-09d9-4d01-8029-56556d043a71",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a4488ed6-5c65-4ce0-98dc-49b6d16cfa32",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.449348Z",
+            "modified": "2023-09-27T14:45:21.449348Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Software Packing (F0001) -- Redhip samples are packed with different custom packers. [1]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--371f6b6b-cb31-48b1-b453-df8a0a5365cc",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

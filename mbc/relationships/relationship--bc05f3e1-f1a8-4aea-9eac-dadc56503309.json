@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--59fe07a6-5af1-471d-a20a-c977cdc7cce7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bc05f3e1-f1a8-4aea-9eac-dadc56503309",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.046226Z",
+            "modified": "2023-09-27T14:45:17.046226Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- The malware verifies that the working folder from the first stage loader exists on the system. The malware checks for the path for the Opera web browser; if it exists, the malware exits. [1] [2]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "malware-behavior--b5358cc7-381e-4609-9a57-aaa0df4dcdce",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

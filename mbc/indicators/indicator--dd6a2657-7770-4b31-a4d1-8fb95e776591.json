@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--62c42af7-70cf-49fb-a257-0b00f6e2bd52",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--dd6a2657-7770-4b31-a4d1-8fb95e776591",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.74619Z",
+            "modified": "2023-09-27T14:45:12.74619Z",
+            "name": "Vobfus File Names",
+            "description": "This is an IoC for Vobfus",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = 'x.mpeg [0 byte File]' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-27T14:45:12.74619Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

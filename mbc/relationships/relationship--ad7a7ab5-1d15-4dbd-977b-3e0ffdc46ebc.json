@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--200feb4a-f5d7-4065-95aa-d0b3d0000aa4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ad7a7ab5-1d15-4dbd-977b-3e0ffdc46ebc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.002685Z",
+            "modified": "2023-09-27T14:45:19.002685Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information (E1027) -- GoBotKR uses base64 to obfuscate strings, commands and files. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "malware-behavior--9e2b1d4a-592e-4152-8950-3dd4e1aaab35",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

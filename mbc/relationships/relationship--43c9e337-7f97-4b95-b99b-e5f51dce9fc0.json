@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c658dcaa-fccd-4570-85a4-f8aca7ecddc3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--43c9e337-7f97-4b95-b99b-e5f51dce9fc0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:20.719221Z",
+            "modified": "2023-09-27T14:45:20.719221Z",
+            "relationship_type": "uses",
+            "description": "File System::Set File Attributes (C0050) -- UP007 sets file attributes. [2]",
+            "source_ref": "malware--690b21db-8385-4311-8ea6-c72d40f06024",
+            "target_ref": "malware-behavior--44d6b8b4-f610-4003-901a-fe2c67ffd4a2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

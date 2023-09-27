@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1633fe00-b970-4a4a-a46f-61c8dc355ff5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6a707ed6-0b1e-49d7-8cf3-16c8572edd0c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.353816Z",
+            "modified": "2023-09-27T14:45:14.353816Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- Malware contains a dropper that installs additional programs like Cbrom.exe. [1]",
+            "source_ref": "malware--60e05661-0641-4dd5-83e1-d398b1e172c0",
+            "target_ref": "malware-behavior--5573e81a-a1ed-438a-b835-01eebb182b1c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a1398c8-0e94-44a7-adbd-42618d88b6fd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c56209c6-a1d1-452d-b644-d74f8e9742ea",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.631998Z",
+            "modified": "2023-09-27T14:45:23.631998Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- Hupigon drops the file \"Systen.dll\" and adds the registry entry: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Notify\\BITS DllName = \"%System%\\Systen.dll\". [1]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-behavior--1ff71015-ce36-44e6-ba7d-648e8715d1d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9642b011-688c-40c7-99bf-4bc8c0f0929c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ae5172fc-8383-44f4-8be3-378bb4df0a3f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.318988Z",
+            "modified": "2023-09-27T14:45:12.318988Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Location Discovery::System Language Discovery (T1614.001) -- Ursnif gets keyboard layouts. [6]",
+            "source_ref": "malware--9af4a781-0332-4ac3-86f4-3ffe2074ddee",
+            "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

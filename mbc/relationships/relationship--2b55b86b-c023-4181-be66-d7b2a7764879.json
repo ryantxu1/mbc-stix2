@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--703ec3bd-0e0a-4c15-9904-340089a86256",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2b55b86b-c023-4181-be66-d7b2a7764879",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.423866Z",
+            "modified": "2023-09-27T14:45:10.423866Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Key (C0036.005) -- DarkComet queries or enumerates registry keys. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "malware-method--b804c83f-ded7-4c96-88c2-a55824543238",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

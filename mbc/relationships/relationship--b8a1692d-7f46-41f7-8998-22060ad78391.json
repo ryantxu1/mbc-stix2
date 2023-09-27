@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7cafc9e6-371b-41b0-84d5-25cded3e8da3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b8a1692d-7f46-41f7-8998-22060ad78391",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.511906Z",
+            "modified": "2023-09-27T14:45:22.511906Z",
+            "relationship_type": "uses",
+            "description": "Data::Checksum::CRC32 (C0032.001) -- Gamut hashes data with CRC32. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-method--a2f04f31-26f6-4cab-a61d-38132dec61a2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

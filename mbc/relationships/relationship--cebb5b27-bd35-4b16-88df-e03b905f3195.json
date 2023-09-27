@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--368f1442-52cd-44d6-9c93-99afda31a112",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cebb5b27-bd35-4b16-88df-e03b905f3195",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.524267Z",
+            "modified": "2023-09-27T14:45:21.524267Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection::Dynamic-link Library Injection (E1055.001) -- Netwalker uses reflective DLL loading to inject from memory. [1]",
+            "source_ref": "malware--acc25a07-e80b-44e8-9b72-ba0493688fa5",
+            "target_ref": "malware-method--6b8bf968-86e7-48d1-8b4f-2f3379a8dd79",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

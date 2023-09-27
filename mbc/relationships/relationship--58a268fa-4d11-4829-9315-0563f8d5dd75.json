@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--179ec405-90e6-47f7-9090-938a06e8ac09",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--58a268fa-4d11-4829-9315-0563f8d5dd75",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.753554Z",
+            "modified": "2023-09-27T14:45:14.753554Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Destruction (E1485) -- A 2018 variant includes a component that erases files and then wipes the Master Boot Record (MBR), preventing file recovery. [1]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "malware-behavior--5b6052ba-46eb-4fe5-acac-27a2d6274f9e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

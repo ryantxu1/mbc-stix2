@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cd3b69bf-cd4d-48f1-85a9-a6cc4a32007e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8431cc97-c9d1-4e37-81d0-ac3bc22345f0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:18.686876Z",
+            "modified": "2023-09-27T14:45:18.686876Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Proxy (T1090) -- GoBotKR can be used as a proxy server. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

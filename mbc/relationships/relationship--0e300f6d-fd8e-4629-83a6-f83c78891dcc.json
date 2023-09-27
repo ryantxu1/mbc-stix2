@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--aadfe8ad-7458-4210-9065-373b7ae2b51a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0e300f6d-fd8e-4629-83a6-f83c78891dcc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.555452Z",
+            "modified": "2023-09-27T14:45:13.555452Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Unique Hardware/Firmware Check - MAC Address (B0009.028) -- GravityRAT checks if the MAC address starts with a well-known hexadecimal number used by various VM developer. [2]",
+            "source_ref": "malware--b2ecde23-d7c0-4945-9ac1-8cf01c99ff5b",
+            "target_ref": "malware-method--469b9cc2-8cb8-4c90-857b-e5d405fb7497",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

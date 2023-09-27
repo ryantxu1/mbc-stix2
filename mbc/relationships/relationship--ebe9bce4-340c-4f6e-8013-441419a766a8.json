@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6becf0a3-e9c1-4c7d-9dc3-a9cc30b88546",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ebe9bce4-340c-4f6e-8013-441419a766a8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.10423Z",
+            "modified": "2023-09-27T14:45:10.10423Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery (T1010) -- The malware enumerates GUI resources. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

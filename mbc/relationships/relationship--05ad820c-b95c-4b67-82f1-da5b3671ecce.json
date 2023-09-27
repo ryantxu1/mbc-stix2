@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d8b474e-2304-4c1f-9628-b1e4d5ea1843",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--05ad820c-b95c-4b67-82f1-da5b3671ecce",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.1018Z",
+            "modified": "2023-09-27T14:45:16.1018Z",
+            "relationship_type": "uses",
+            "description": "Impact::Generate Traffic from Victim::Advertisement Replacement Fraud (E1643.m02) -- The malware displays brief advertisements whenever the user opens applications on their phone. [1]",
+            "source_ref": "malware--857bce30-3af8-4bbd-b834-417e2cfd861f",
+            "target_ref": "malware-method--6772621e-c9b8-4ef6-a72f-10f54ee660a1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

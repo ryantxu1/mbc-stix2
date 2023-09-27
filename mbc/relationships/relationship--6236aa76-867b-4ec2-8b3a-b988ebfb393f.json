@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--972b96ec-cc48-4b51-8f22-452296911bf9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6236aa76-867b-4ec2-8b3a-b988ebfb393f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.910639Z",
+            "modified": "2023-09-27T14:45:23.910639Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Masquerading (T1036) -- Clipminer drops a file masquerading as a Control Panel (CPL) file. [1]",
+            "source_ref": "malware--6ece3625-2e43-4d47-85f5-0fc185c41cdd",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c103c7a2-86a0-49d7-a86a-2c7aa3ac75f5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a953c283-3bee-4f56-a512-97ba0d91527a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:20.703887Z",
+            "modified": "2023-09-27T14:45:20.703887Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- UP007 accepts command line arguments. [2]",
+            "source_ref": "malware--690b21db-8385-4311-8ea6-c72d40f06024",
+            "target_ref": "malware-behavior--c343aac2-9261-4eb5-9b82-8aa302ec5be8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

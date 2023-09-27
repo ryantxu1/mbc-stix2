@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--1fe09379-60e6-43df-a2f1-eef063e03e15",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5d3d2de2-abef-4fff-8ac3-dc7923c2d8b2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.995569Z",
+            "modified": "2023-09-27T14:45:21.995569Z",
+            "name": "EvilBunny hash",
+            "description": "This is an IoC for EvilBunny",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = 'be14d781b85125a6074724964622ab05f89f41e6bacbda398bc7709d1d98a2ef' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-27T14:45:21.995569Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

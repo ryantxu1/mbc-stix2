@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--811e4126-0b1a-467a-8ff2-0c6767a6924b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ddef926d-f9f4-4479-b531-569aa49859b0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.141389Z",
+            "modified": "2023-09-27T14:45:12.141389Z",
+            "relationship_type": "uses",
+            "description": "Lateral Movement::Supply Chain Compromise (E1195) -- TrickBot comes with a signed downloader component. [5]",
+            "source_ref": "malware--1827d3cd-191a-46be-a9a9-7d0033714fa3",
+            "target_ref": "malware-behavior--ec385567-4c7c-4432-8e23-a2c42fde8978",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

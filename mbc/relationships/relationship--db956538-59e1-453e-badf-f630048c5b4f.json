@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a06f695-a180-4bfe-ab34-4756012485f1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--db956538-59e1-453e-badf-f630048c5b4f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.459229Z",
+            "modified": "2023-09-27T14:45:21.459229Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- Redhip reads files on Windows. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--0a964aa9-675f-4be2-89d5-27dd2dc63499",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

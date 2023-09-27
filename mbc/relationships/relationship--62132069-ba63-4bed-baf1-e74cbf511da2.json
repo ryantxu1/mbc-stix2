@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4cdab83-7e7d-4f23-aa6a-a898a5e5d510",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--62132069-ba63-4bed-baf1-e74cbf511da2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.829537Z",
+            "modified": "2023-09-27T14:45:21.829537Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- Stuxnet deletes files. [2]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-behavior--b5446fa9-362c-4820-9650-e5e82e68173b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

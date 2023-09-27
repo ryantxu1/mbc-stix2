@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--dec138e1-e19b-4f6b-9c79-1331190d645e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6fd555d7-d967-467f-8be0-ce313c7f457b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.971911Z",
+            "modified": "2023-09-27T14:45:13.971911Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Process Discovery (T1057) -- Mebromi enumerates processes. [2]",
+            "source_ref": "malware--60e05661-0641-4dd5-83e1-d398b1e172c0",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

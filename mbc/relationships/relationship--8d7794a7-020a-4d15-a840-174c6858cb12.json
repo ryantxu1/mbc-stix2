@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d18abf4-cd44-4e4e-8c39-52a1396cbd26",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8d7794a7-020a-4d15-a840-174c6858cb12",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.732891Z",
+            "modified": "2023-09-27T14:45:16.732891Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (T1082) -- Malware loader collects the full path of the process running the loader, basic CPU information, machine architecture, number of processors, victim logon server's name, RAM size, DNS domain, and MAC address.  [2]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

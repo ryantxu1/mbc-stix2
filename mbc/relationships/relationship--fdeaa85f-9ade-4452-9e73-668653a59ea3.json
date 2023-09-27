@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f3be8e4-8aa0-4f10-8bcf-cd9fb2558432",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fdeaa85f-9ade-4452-9e73-668653a59ea3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.537919Z",
+            "modified": "2023-09-27T14:45:15.537919Z",
+            "relationship_type": "uses",
+            "description": "File System::Write File (C0052) -- Poison Ivy writes files on Windows. [5]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-behavior--70405ee7-0861-4211-a429-876ae90d1a5f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

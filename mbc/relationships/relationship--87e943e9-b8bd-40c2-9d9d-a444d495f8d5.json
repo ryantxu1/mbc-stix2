@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed6b546b-8fbc-4f5e-8810-801058ff24e2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--87e943e9-b8bd-40c2-9d9d-a444d495f8d5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:11.957382Z",
+            "modified": "2023-09-27T14:45:11.957382Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Rombertik gets disk sizes. [2]",
+            "source_ref": "malware--c2b4a73e-ba73-4cf8-8e71-49e2f56847dc",
+            "target_ref": "malware-behavior--5bc0ca72-23ae-4830-a813-6186c3ea9a38",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

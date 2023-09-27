@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8623281b-bec1-470b-aea9-eb3c48014541",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fb50d68c-f4d3-4bdc-9ea2-7443a5b2443b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.451631Z",
+            "modified": "2023-09-27T14:45:21.451631Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Redhip checks the OS version. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--5bc0ca72-23ae-4830-a813-6186c3ea9a38",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

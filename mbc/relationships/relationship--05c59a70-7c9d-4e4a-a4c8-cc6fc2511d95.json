@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a97edd3-3d3d-486c-87db-6c388a1f7764",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--05c59a70-7c9d-4e4a-a4c8-cc6fc2511d95",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.814912Z",
+            "modified": "2023-09-27T14:45:21.814912Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Stuxnet parses PE headers. [2]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

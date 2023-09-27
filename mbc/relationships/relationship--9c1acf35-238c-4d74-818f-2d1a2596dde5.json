@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c0ec7ac-c0f6-4f14-ab30-f3004cb0a893",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9c1acf35-238c-4d74-818f-2d1a2596dde5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:11.614856Z",
+            "modified": "2023-09-27T14:45:11.614856Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery (T1010) -- Rombertik enumerates GUI resources. [2]",
+            "source_ref": "malware--c2b4a73e-ba73-4cf8-8e71-49e2f56847dc",
+            "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

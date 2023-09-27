@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--00cfee09-be0f-4b37-9144-681ce361142b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4374e89d-6fe9-43c6-8142-c44544b37235",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:20.922789Z",
+            "modified": "2023-09-27T14:45:20.922789Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Collects information related to os, processes, and sometimes mail client information and sends it to c2 [2]",
+            "source_ref": "malware--3548084c-f234-4ed7-bcaf-a01398ff4e44",
+            "target_ref": "malware-behavior--5bc0ca72-23ae-4830-a813-6186c3ea9a38",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

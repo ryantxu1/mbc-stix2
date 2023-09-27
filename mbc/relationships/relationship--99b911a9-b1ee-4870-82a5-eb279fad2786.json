@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--203cc7bb-b7b7-457d-9644-93017efa0c1c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--99b911a9-b1ee-4870-82a5-eb279fad2786",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.505377Z",
+            "modified": "2023-09-27T14:45:22.505377Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Gamut links functions at runtime on Windows. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

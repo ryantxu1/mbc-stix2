@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0eb669de-727b-4e7a-b682-3586e00413b8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c5ae4b22-dba6-4566-8811-ba919e7664ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.010888Z",
+            "modified": "2023-09-27T14:45:16.010888Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- CryptoLocker encodes data using XOR. [2]",
+            "source_ref": "malware--7a71c695-35c9-42c3-af85-23836a034dd0",
+            "target_ref": "malware-method--aeb1aee4-4608-4136-b5b4-da2b17c63a8b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

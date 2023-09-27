@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--943c19f4-243e-47c6-b9ce-842e024a5e57",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--53888514-7b06-4999-9a61-543a6bf46bd1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.413096Z",
+            "modified": "2023-09-27T14:45:24.413096Z",
+            "relationship_type": "uses",
+            "description": "Impact::Compromise Data Integrity (B0016) -- DYEPACK alters records in databases used for SWIFT transactions. [1]",
+            "source_ref": "malware--3ba845e2-fed8-45b6-8fb1-be37b830e3ae",
+            "target_ref": "malware-behavior--54fc2a64-266c-46af-be61-64fe5fe10319",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

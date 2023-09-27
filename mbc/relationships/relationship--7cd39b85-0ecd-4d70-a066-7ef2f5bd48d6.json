@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1285e7e-5b37-4263-8795-22d2b76134a6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7cd39b85-0ecd-4d70-a066-7ef2f5bd48d6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.414207Z",
+            "modified": "2023-09-27T14:45:13.414207Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encryption Key (C0028) -- Kovter creates new keys via CryptAcquireContext. [3]",
+            "source_ref": "malware--d011f078-1da9-4721-8b73-26891d894cc4",
+            "target_ref": "malware-behavior--98270f0c-c490-4aad-baba-a3b8e93cc077",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

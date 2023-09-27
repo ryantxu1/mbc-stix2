@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb795f96-f888-49ec-b4a5-d7876710ee3f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--50b8f2d7-ffa1-4b60-8de5-133f08be2fcf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.046783Z",
+            "modified": "2023-09-27T14:45:17.046783Z",
+            "relationship_type": "uses",
+            "description": "Exfiltration::Archive Collected Data::Encoding-Standard Encoding (E1560.m03) -- The malware sends data as a Base64 string of JSON. [2]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "malware-method--373f2831-52af-40ae-b046-bdf136b76778",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--060b805e-67d6-4329-9c93-2140c5430f80",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2265cefb-a455-449a-b9cc-e4bbc0d3ba30",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.583853Z",
+            "modified": "2023-09-27T14:45:22.583853Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hijack Execution Flow (F0015) -- SYNful Knock hooks iOS functions to call and initialize the malware. [1]",
+            "source_ref": "malware--14b5901d-6480-4b40-b0dc-ec1a91e27d4c",
+            "target_ref": "malware-behavior--1719035a-b2cb-40a2-b721-f793c5947a9a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

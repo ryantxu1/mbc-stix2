@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8105415b-7b33-4e10-98a6-d80ddb2c7a11",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e7bb665d-9ee2-468d-9f1b-025263ecd5f0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.55574Z",
+            "modified": "2023-09-27T14:45:19.55574Z",
+            "relationship_type": "uses",
+            "description": "Collection::Cryptocurrency (B0028) -- ElectroRat examines the disk for cryptocurrency addresses and keys to steal money from a wallet. It compromises multiple currencies, including Monaro, Doegecoin, Ethereum, Litecoin, and Bitcoin. [1]",
+            "source_ref": "malware--230e70a7-70f1-4a17-8de3-ee0f306a9a86",
+            "target_ref": "malware-behavior--1b2dfcdd-8125-41c1-8bbd-9cf19f947453",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

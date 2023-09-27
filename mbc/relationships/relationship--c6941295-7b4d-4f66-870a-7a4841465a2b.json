@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a8dd2de-d608-45f2-9efb-c10b797793e8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c6941295-7b4d-4f66-870a-7a4841465a2b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.516791Z",
+            "modified": "2023-09-27T14:45:22.516791Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Delete Registry Key (C0036.002) -- Gamut deletes registry keys. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-method--b804c83f-ded7-4c96-88c2-a55824543238",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

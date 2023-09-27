@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e149472e-efa4-4a20-a3c4-915fd31dfd63",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--757d4f78-d0e5-4aff-a371-89f34ebba50b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:18.469339Z",
+            "modified": "2023-09-27T14:45:18.469339Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Time Discovery (T1124) -- GoBotKR can obtain the date and time of the compromised system. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

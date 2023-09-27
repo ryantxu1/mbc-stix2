@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a7bc461b-dd35-4bdd-bdd0-ec46afb89493",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cc8b3bba-fc7c-4866-92dc-7f1dc5357e8a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.515831Z",
+            "modified": "2023-09-27T14:45:22.515831Z",
+            "relationship_type": "uses",
+            "description": "File System::Set File Attributes (C0050) -- Gamut sets file attributes. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-behavior--44d6b8b4-f610-4003-901a-fe2c67ffd4a2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

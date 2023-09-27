@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--dbea449d-d649-4825-837f-f2c1d36bf2fd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6e4cac2d-aad6-49ae-b212-0cdbb25527a6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.556911Z",
+            "modified": "2023-09-27T14:45:13.556911Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- GravityRAT reads files on Windows. [4]",
+            "source_ref": "malware--b2ecde23-d7c0-4945-9ac1-8cf01c99ff5b",
+            "target_ref": "malware-behavior--0a964aa9-675f-4be2-89d5-27dd2dc63499",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

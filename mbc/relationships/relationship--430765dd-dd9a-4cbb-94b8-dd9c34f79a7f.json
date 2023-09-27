@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--315a7441-f9c6-4f50-a881-270468f52d28",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--430765dd-dd9a-4cbb-94b8-dd9c34f79a7f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.553473Z",
+            "modified": "2023-09-27T14:45:24.553473Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- Malware executes the decrypted, embedded code buffer, which is a Cobalt Strike Remote Access Tool (RAT). [1]",
+            "source_ref": "malware--02aadc73-0547-4e30-a703-7c5b677017c2",
+            "target_ref": "malware-behavior--8445a70a-a0de-4b41-b332-6700946de631",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

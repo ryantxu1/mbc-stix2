@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8c4d974d-b680-4d10-ad9e-5b12a40a387f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0baf57dd-f140-4382-988a-1bc05fb081c4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:18.998821Z",
+            "modified": "2023-09-27T14:45:18.998821Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Non-Standard Port (T1571) -- GoBotKR uses non-standard ports, such as 6446, 6556 and 7777, for C&C. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

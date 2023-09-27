@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f7b36160-ef80-4b06-8a78-aa11ef8a642c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--22104733-e07d-4e7c-a1e3-e7ce7e7baccf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.419383Z",
+            "modified": "2023-09-27T14:45:13.419383Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- Kovter creates processes on Windows. [3]",
+            "source_ref": "malware--d011f078-1da9-4721-8b73-26891d894cc4",
+            "target_ref": "malware-behavior--3df7f51c-6481-405e-bffd-32eac499be3e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

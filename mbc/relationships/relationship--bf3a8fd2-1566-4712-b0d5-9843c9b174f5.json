@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ace07aa-0e6c-4a97-b724-4dee9cd1a376",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bf3a8fd2-1566-4712-b0d5-9843c9b174f5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.754791Z",
+            "modified": "2023-09-27T14:45:14.754791Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Modify Registry (E1112) -- Shamoon disables remote user account control by enabling the registry key LocalAccountTokenFilterPolicy. [2]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "malware-behavior--f93a1c78-1a05-428c-9c79-79d7700e7eeb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f934f27-0c52-431d-8662-4ff54f1a18b6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--90f32269-03b4-4153-b65c-55e4cc94a71c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:25.444606Z",
+            "modified": "2023-09-27T14:45:25.444606Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Dynamic Analysis Evasion::Alternative ntdll.dll (B0003.001) -- The malware loads ntdll.dll and user32.dll as data files and overwrites the first 8 bytes of those functions to avoid API hooking by security products. [1]",
+            "source_ref": "malware--35a347aa-e238-49aa-96e0-05e5042bf4dc",
+            "target_ref": "malware-method--e2737743-1631-43d6-be67-fa60ae285b12",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

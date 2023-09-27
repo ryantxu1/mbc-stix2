@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fbb0d266-a442-49ee-b34a-61a93ca45c2e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a8dc9b11-a46e-470a-a5ec-ba353542c4f6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.510237Z",
+            "modified": "2023-09-27T14:45:22.510237Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral-Analysis::Debugger Detection::IsDebuggerPresent (B0001.008) -- The malware detects debuggers using IsDebuggerPresent. [1]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-method--4027265d-a2ef-496a-9b13-2bc44ad5e226",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

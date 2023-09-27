@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--efdd7686-a019-4d52-b511-9aa53034a59c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--801e2bb5-613b-4601-9e2e-667a0d897ac9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.765032Z",
+            "modified": "2023-09-27T14:45:14.765032Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Delete Registry Value (C0036.007) -- Shamoon deletes registry values. [5]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "malware-method--b804c83f-ded7-4c96-88c2-a55824543238",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

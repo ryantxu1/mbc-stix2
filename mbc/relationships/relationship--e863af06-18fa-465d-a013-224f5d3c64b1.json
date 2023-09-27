@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--17e6d312-4c58-4359-9573-bbfdf75ec845",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e863af06-18fa-465d-a013-224f5d3c64b1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.661968Z",
+            "modified": "2023-09-27T14:45:23.661968Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Thread (C0038) -- Hupigon creates threads. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-behavior--8bd74e4c-00e0-49a2-9959-5baef14a3437",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6fca1dd0-1c8f-4da7-a957-26ffd1fb2a9b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e91d4c5f-23ff-40dc-91a8-8b25a1ba1522",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:25.43928Z",
+            "modified": "2023-09-27T14:45:25.43928Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Indicator Removal on Host::File Deletion (T1070.004) -- The malware deletes files to evade detection. [1]",
+            "source_ref": "malware--35a347aa-e238-49aa-96e0-05e5042bf4dc",
+            "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

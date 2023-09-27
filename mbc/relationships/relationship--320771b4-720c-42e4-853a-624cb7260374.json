@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--23488f8a-dc59-4db7-81d8-d68a8204dacd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--320771b4-720c-42e4-853a-624cb7260374",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:20.703077Z",
+            "modified": "2023-09-27T14:45:20.703077Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- UP007 queries environment variables. [2]",
+            "source_ref": "malware--690b21db-8385-4311-8ea6-c72d40f06024",
+            "target_ref": "malware-behavior--5bc0ca72-23ae-4830-a813-6186c3ea9a38",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb6d4f9f-7a27-4034-9263-de4be69d113e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5774f9da-daa5-4d67-b1bb-522643db15c5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.451242Z",
+            "modified": "2023-09-27T14:45:21.451242Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- Redhip persists via a Run registry key. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--1ff71015-ce36-44e6-ba7d-648e8715d1d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

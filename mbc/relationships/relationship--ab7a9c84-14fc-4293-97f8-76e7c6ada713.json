@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0a43f67b-2de0-4df4-8a03-d8f21c16246c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ab7a9c84-14fc-4293-97f8-76e7c6ada713",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.841398Z",
+            "modified": "2023-09-27T14:45:24.841398Z",
+            "relationship_type": "uses",
+            "description": "Data::Check String (C0019) -- Locky Bart references Base64 strings. [2]",
+            "source_ref": "malware--665319d9-da4e-4139-a330-be1a66247317",
+            "target_ref": "malware-behavior--2d97a155-505f-47b4-9db3-697a1d0d5a13",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--abd0cbb1-8bc8-403d-9ec3-675026d99fdb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--00eeaf8f-9b41-4b93-8884-9b0bcc7e5293",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.145628Z",
+            "modified": "2023-09-27T14:45:12.145628Z",
+            "relationship_type": "uses",
+            "description": "Impact::Spamming (B0039) -- In July 2019, TrickBot was observed infecting computers to steal email passwords and address books to spread malicious emails. [8]",
+            "source_ref": "malware--1827d3cd-191a-46be-a9a9-7d0033714fa3",
+            "target_ref": "malware-behavior--bb4edc5a-45e6-43fe-8c46-3cfb447d01be",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

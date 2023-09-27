@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9be5d088-4526-4fc6-ac75-37d8910e6671",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--13ddb184-5923-4b80-a737-2371853f3dfe",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.1466Z",
+            "modified": "2023-09-27T14:45:12.1466Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Inspect Section Memory Permissions (B0046.002) -- TrickBot inspects section memory permissions. [7]",
+            "source_ref": "malware--1827d3cd-191a-46be-a9a9-7d0033714fa3",
+            "target_ref": "malware-method--28298ed7-81a1-4f52-b293-aaa96f19f29e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b46b836a-4016-4e82-808a-444f869a2bdf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a370e944-1132-426a-9811-785f1753834f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:11.970318Z",
+            "modified": "2023-09-27T14:45:11.970318Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Delete Registry Key (C0036.002) -- Rombertik deletes registry keys. [2]",
+            "source_ref": "malware--c2b4a73e-ba73-4cf8-8e71-49e2f56847dc",
+            "target_ref": "malware-method--b804c83f-ded7-4c96-88c2-a55824543238",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

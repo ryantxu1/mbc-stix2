@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7a27ef86-1767-41b9-8cac-5ca489972a94",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--77aa6053-c19f-4f9d-9159-575e26d4b475",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.654052Z",
+            "modified": "2023-09-27T14:45:12.654052Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- Vobfus downloads the latest version of itself from a remote server.  [1]",
+            "source_ref": "malware--553dde1a-e1f7-40ea-9588-1c5fd5bdd67c",
+            "target_ref": "malware-behavior--8445a70a-a0de-4b41-b332-6700946de631",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

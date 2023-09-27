@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8d368107-92f8-49b3-8276-b0d094d4759a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--648c4c3c-ad6e-41eb-a19a-d36f9cd4faa5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.657739Z",
+            "modified": "2023-09-27T14:45:23.657739Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- Hupigon allocates RWX memory. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-behavior--b6e93452-d4d5-40da-b0ce-8f332122d0d6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

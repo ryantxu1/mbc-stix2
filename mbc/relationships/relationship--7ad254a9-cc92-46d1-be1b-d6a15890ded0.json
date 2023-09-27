@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7e63741c-ac8e-47d0-b553-e55e419bc3ed",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7ad254a9-cc92-46d1-be1b-d6a15890ded0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.408782Z",
+            "modified": "2023-09-27T14:45:10.408782Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging (F0002) -- DarkComet can capture keystrokes. [2]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "malware-behavior--93e06d33-d818-4cd9-ae31-65ad22c20154",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

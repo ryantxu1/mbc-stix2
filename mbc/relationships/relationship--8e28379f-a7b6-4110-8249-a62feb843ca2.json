@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f6e22921-9fc2-45e9-b352-10260e3f702a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8e28379f-a7b6-4110-8249-a62feb843ca2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.159022Z",
+            "modified": "2023-09-27T14:45:19.159022Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Sandbox Detection (B0007) -- The Terminator RAT evades a sandbox by not executing until after a reboot. Most sandboxes don't reboot during an analysis. [1]",
+            "source_ref": "malware--9708e5c3-9a10-4d95-921d-f56e869dc99a",
+            "target_ref": "malware-behavior--a6eac4a8-8864-48dd-b43c-71f1ec6a6b87",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--270c4937-3e7a-45e7-9c7e-bdc0ccc086aa",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ed1dcefa-4163-4452-997c-f437656dec88",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:18.324641Z",
+            "modified": "2023-09-27T14:45:18.324641Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Network Configuration Discovery (T1016) -- GoBotKR uses\u00a0netsh\u00a0and\u00a0ipconfig\u00a0to collect information about the network configuration. It has used\u00a0Naver\u00a0and\u00a0Daum\u00a0portals to obtain the client IP address. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

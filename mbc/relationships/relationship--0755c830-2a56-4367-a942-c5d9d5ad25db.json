@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8b320803-1e2e-4f0b-b236-7f33ef3b5b02",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0755c830-2a56-4367-a942-c5d9d5ad25db",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.499078Z",
+            "modified": "2023-09-27T14:45:14.499078Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Process Discovery (T1057) -- Shamoon enumerates processes. [5]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

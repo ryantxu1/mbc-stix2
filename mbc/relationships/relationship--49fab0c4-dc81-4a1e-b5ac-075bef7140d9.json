@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--11b32ff3-e17f-475a-bb8b-ee9145581957",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--49fab0c4-dc81-4a1e-b5ac-075bef7140d9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.819775Z",
+            "modified": "2023-09-27T14:45:19.819775Z",
+            "relationship_type": "uses",
+            "description": "Initial Access::Phishing::Spearphishing Link (T1566.002) -- The malware is sent to the victim via a link. [1]",
+            "source_ref": "malware--690b21db-8385-4311-8ea6-c72d40f06024",
+            "target_ref": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

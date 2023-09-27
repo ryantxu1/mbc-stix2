@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed463293-1859-40d8-a7fb-bb4511642653",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ff305b7b-a486-4b78-be03-3d0f34a7a8dc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.452825Z",
+            "modified": "2023-09-27T14:45:21.452825Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Sandbox Detection::Product Key/ID Testing (B0007.005) -- Redhip detects all publicly available automated malware analysis workbenches (ThreatExpert, JoeBox, etc.) by considering OS product keys and special DLLs and checks for sandboxes and AV modules. [1] [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-method--5d4c353b-6168-4c8f-b1c1-0237b66ad68f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

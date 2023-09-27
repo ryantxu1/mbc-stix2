@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8bcbd546-1813-422a-a666-2e30e4f3e476",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d74dd0fc-d907-4c52-9d21-f542f3e0a8be",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.660145Z",
+            "modified": "2023-09-27T14:45:19.660145Z",
+            "relationship_type": "uses",
+            "description": "Execution::Conditional Execution::Suicide Exit (B0025.001) -- Conficker B variant has significantly more suicide logic embedded in its code and employs anti-debugging features to avoid reverse engineering attempts. [2]",
+            "source_ref": "malware--beaa9dfe-de3f-419e-8527-e1352da760e1",
+            "target_ref": "malware-method--4c933465-fe88-4ced-8d1e-9631bb302110",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

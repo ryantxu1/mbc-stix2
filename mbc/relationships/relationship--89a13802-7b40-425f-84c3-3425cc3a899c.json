@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b259815b-4346-48ed-9ed4-11835ce351bc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--89a13802-7b40-425f-84c3-3425cc3a899c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.690931Z",
+            "modified": "2023-09-27T14:45:10.690931Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::File and Directory Permissions Modification (T1222) -- Set file attributes (This capa rule had 1 match) [3]",
+            "source_ref": "malware--e8e7c0d8-9563-4bfc-87ae-8179d4bf1e6e",
+            "target_ref": "attack-pattern--65917ae0-b854-4139-83fe-bf2441cf0196",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

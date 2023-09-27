@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--03bf17ef-9a59-44fc-bbd6-a37791ac9fc6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--32c9f643-d669-417f-a322-bee7401a27c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.642277Z",
+            "modified": "2023-09-27T14:45:23.642277Z",
+            "relationship_type": "uses",
+            "description": "Communication::Interprocess Communication::Create Pipe (C0003.001) -- Hupigon creates two anonymous pipes. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-method--1ff77a0a-5f61-4403-ad64-a8b5e4770fab",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

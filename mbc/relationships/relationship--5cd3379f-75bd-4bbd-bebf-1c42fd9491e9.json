@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c4b3894-16d4-413d-a149-7ab8851f739b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5cd3379f-75bd-4bbd-bebf-1c42fd9491e9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.34846Z",
+            "modified": "2023-09-27T14:45:24.34846Z",
+            "relationship_type": "uses",
+            "description": "Execution::Send Poisoned Text Message (B0021) -- MazarBot is delivered via a poisoned SMS message. [2]",
+            "source_ref": "malware--a62e220e-2064-4ef1-87ef-bb89c130e9dd",
+            "target_ref": "malware-behavior--e93f4a24-e233-4d8f-bd62-c68fd7c54870",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

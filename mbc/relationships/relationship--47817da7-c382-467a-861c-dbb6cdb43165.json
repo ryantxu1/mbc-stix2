@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8e8e5a89-2969-40bb-9611-9b6cfb34e732",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--47817da7-c382-467a-861c-dbb6cdb43165",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.166035Z",
+            "modified": "2023-09-27T14:45:15.166035Z",
+            "relationship_type": "uses",
+            "description": "Privilege Escalation::Install Certificate (E1608) -- The malware installs a certificate. [1]",
+            "source_ref": "malware--121f31bc-94a5-498b-a659-ec81bb05b0bb",
+            "target_ref": "malware-behavior--453704d5-1f47-4e1d-bd87-e5cc1925516b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

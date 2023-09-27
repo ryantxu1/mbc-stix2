@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--20adc625-4311-481f-8eef-813836b7a679",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--86c49bb2-e502-42ed-a021-d6af65ed5ac4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.480693Z",
+            "modified": "2023-09-27T14:45:17.480693Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection (E1055) -- The malware injects code into a new svchost process. [1]",
+            "source_ref": "malware--5d079c5c-472d-4e43-b73c-4ec98c79931b",
+            "target_ref": "malware-behavior--e0771829-0c47-47cb-ba08-fc32af663c4a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

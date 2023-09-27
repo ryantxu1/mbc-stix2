@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d11b3eb-2d9a-4b52-9dd9-1fabc7f0696b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c7eab045-191e-4941-bbf1-c394014ec67f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.455603Z",
+            "modified": "2023-09-27T14:45:21.455603Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Cryptographic Hash (C0029) -- Redhip hashes data via WinCrypt. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--7e751547-371e-4096-8b20-11d3fee13308",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

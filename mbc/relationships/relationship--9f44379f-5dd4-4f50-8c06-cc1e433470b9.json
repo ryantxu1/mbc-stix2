@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ea28a22-34d2-4a87-8dc1-657afd607401",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9f44379f-5dd4-4f50-8c06-cc1e433470b9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.047216Z",
+            "modified": "2023-09-27T14:45:17.047216Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Check Processes (B0009.003) -- Malware checks if it is running in a sandbox. If it is running in a sandbox, the malware exits.  [1]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "malware-method--469b9cc2-8cb8-4c90-857b-e5d405fb7497",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

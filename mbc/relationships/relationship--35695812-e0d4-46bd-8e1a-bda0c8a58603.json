@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9eb697cf-cc1f-434e-ab44-49e6433a5222",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--35695812-e0d4-46bd-8e1a-bda0c8a58603",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.016201Z",
+            "modified": "2023-09-27T14:45:16.016201Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- CryptoLocker allocates RWX memory. [2]",
+            "source_ref": "malware--7a71c695-35c9-42c3-af85-23836a034dd0",
+            "target_ref": "malware-behavior--b6e93452-d4d5-40da-b0ce-8f332122d0d6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

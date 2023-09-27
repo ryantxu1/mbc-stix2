@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4492197d-374e-40a6-89e6-493795a98868",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1d35c393-ff77-4b63-87fd-68b2f84ab07c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.517552Z",
+            "modified": "2023-09-27T14:45:22.517552Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Key (C0036.005) -- Gamut queries or enumerates registry keys. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-method--b804c83f-ded7-4c96-88c2-a55824543238",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

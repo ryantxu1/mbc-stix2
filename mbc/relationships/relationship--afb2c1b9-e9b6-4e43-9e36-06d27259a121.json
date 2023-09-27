@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ba321174-0bee-47bf-acdb-1e7780ab3987",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--afb2c1b9-e9b6-4e43-9e36-06d27259a121",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.523388Z",
+            "modified": "2023-09-27T14:45:21.523388Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- Netwalker is written and executed in Powershell. [1]",
+            "source_ref": "malware--acc25a07-e80b-44e8-9b72-ba0493688fa5",
+            "target_ref": "malware-behavior--c343aac2-9261-4eb5-9b82-8aa302ec5be8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

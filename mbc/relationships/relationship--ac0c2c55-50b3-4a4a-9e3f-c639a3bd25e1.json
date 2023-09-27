@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d632e94f-6be6-47d9-af42-f2de3d99c110",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ac0c2c55-50b3-4a4a-9e3f-c639a3bd25e1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:18.165299Z",
+            "modified": "2023-09-27T14:45:18.165299Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Software Discovery::Security Software Discovery (T1518.001) -- GoBotKR checks for processes associated with security products and debugging tools, and terminates itself if any are detected. It can enumerate installed antivirus software using the wmic command. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

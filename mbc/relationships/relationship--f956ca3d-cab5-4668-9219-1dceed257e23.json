@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--83a761a1-9932-45b7-ac78-be011f816f32",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f956ca3d-cab5-4668-9219-1dceed257e23",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.549469Z",
+            "modified": "2023-09-27T14:45:13.549469Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Account Discovery (T1087) -- GravityRAT gets session user name. [4]",
+            "source_ref": "malware--b2ecde23-d7c0-4945-9ac1-8cf01c99ff5b",
+            "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

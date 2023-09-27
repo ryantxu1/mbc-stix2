@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b2c5a4d-09f4-4d1e-9e6f-b5af8b6cb77e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--298b823b-1cad-40d7-a9c9-348e34f7f4be",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.828109Z",
+            "modified": "2023-09-27T14:45:21.828109Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- Stuxnet encodes data using XOR. [2]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-method--9aeaac70-0c59-48fb-ad74-ce5f7cecfd08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

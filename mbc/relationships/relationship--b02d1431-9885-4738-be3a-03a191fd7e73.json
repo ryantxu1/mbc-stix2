@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5eff72eb-8609-4833-9042-ffb177ef46d9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b02d1431-9885-4738-be3a-03a191fd7e73",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.365728Z",
+            "modified": "2023-09-27T14:45:19.365728Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Web Service (T1102) -- EletroRat uses HTTP for C&C and exfiltration. [1]",
+            "source_ref": "malware--230e70a7-70f1-4a17-8de3-ee0f306a9a86",
+            "target_ref": "attack-pattern--830c9528-df21-472c-8c14-a036bf17d665",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

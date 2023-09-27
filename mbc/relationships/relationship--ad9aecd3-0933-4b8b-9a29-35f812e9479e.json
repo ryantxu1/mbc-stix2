@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f115c8f5-4f1f-449e-bdb2-fb4bc102a75e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ad9aecd3-0933-4b8b-9a29-35f812e9479e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:20.708094Z",
+            "modified": "2023-09-27T14:45:20.708094Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Cryptographic Hash::SHA1 (C0029.002) -- UP007 hashes data using SHA1. [2]",
+            "source_ref": "malware--690b21db-8385-4311-8ea6-c72d40f06024",
+            "target_ref": "malware-method--d300d8d9-34c5-4970-8557-05fe02ae9dac",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

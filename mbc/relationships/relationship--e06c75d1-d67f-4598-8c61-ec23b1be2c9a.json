@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5e76ae62-57a2-41be-a073-97c2e14d978b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e06c75d1-d67f-4598-8c61-ec23b1be2c9a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.488142Z",
+            "modified": "2023-09-27T14:45:12.488142Z",
+            "relationship_type": "uses",
+            "description": "Collection::Screen Capture (E1113) -- Malware contains a screenshot plugin that allows for the collection of screenshots. [2]",
+            "source_ref": "malware--2bf9105d-5791-4e25-b231-944dc7ec724f",
+            "target_ref": "malware-behavior--3b18640d-e201-4f1a-8dc9-397fb53a8506",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

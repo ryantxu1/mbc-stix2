@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6fba595b-26d8-4c14-a9d0-80fc8d1fa570",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b614dd46-a4ee-42cc-a0a6-970ca9962d4a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.454894Z",
+            "modified": "2023-09-27T14:45:15.454894Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Modify Registry (E1112) -- CHOPSTICK may encrypt and store configuration data inside a registry key. [1]",
+            "source_ref": "malware--0453d6ef-c943-4a7f-8132-91efd81f7fbe",
+            "target_ref": "malware-behavior--f93a1c78-1a05-428c-9c79-79d7700e7eeb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

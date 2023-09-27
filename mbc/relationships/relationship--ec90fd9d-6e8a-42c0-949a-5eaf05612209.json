@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--95981c4b-7499-4276-a2e9-a6219bb3c83f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ec90fd9d-6e8a-42c0-949a-5eaf05612209",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.10142Z",
+            "modified": "2023-09-27T14:45:16.10142Z",
+            "relationship_type": "uses",
+            "description": "Lateral Movement::Supply Chain Compromise::Abuse Enterprise Certificates (E1195.m01) -- YiSpecter's malicious apps were signed with three iOS enterprise certificates issued by Apple so they can be installed as enterprise apps on non-jailbroken iOS devices via in-house distribution. [1]",
+            "source_ref": "malware--857bce30-3af8-4bbd-b834-417e2cfd861f",
+            "target_ref": "malware-method--1284c151-c0b7-42bc-aac5-5d505952aa52",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

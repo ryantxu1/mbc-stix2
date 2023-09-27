@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d7aff7e2-7230-4868-a065-e99fdf406db9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--943a5cb1-0991-44e5-afa4-bc65f580957f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.765994Z",
+            "modified": "2023-09-27T14:45:14.765994Z",
+            "relationship_type": "uses",
+            "description": "Process::Allocate Thread Local Storage (C0040) -- Shamoon allocates thread local storage. [5]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "malware-behavior--e54a1038-667a-4473-975a-dfb5bdd720d4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

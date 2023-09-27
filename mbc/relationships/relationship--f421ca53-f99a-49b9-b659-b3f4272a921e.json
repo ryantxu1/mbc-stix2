@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a96f4f1d-bf9b-4aa2-a806-88a37ae2cdaa",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f421ca53-f99a-49b9-b659-b3f4272a921e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.484386Z",
+            "modified": "2023-09-27T14:45:12.484386Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection::Injection using Shims (E1055.m05) -- Malware bypasses UAC using a Shim Database instructing SndVol.exe to execute cmd.exe instead, allowing for elevated execution. [1]",
+            "source_ref": "malware--2bf9105d-5791-4e25-b231-944dc7ec724f",
+            "target_ref": "malware-method--6b8bf968-86e7-48d1-8b4f-2f3379a8dd79",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

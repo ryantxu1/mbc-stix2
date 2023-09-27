@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bd34e4a0-4625-40c8-a9a5-05915fdf4b92",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--12d4bb19-c0ca-4a1e-944b-c3c789be289f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.320428Z",
+            "modified": "2023-09-27T14:45:12.320428Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hijack Execution Flow (F0015) -- The malware hooks various DLL exported functions when the DLL component is loaded into their respective browser application to monitor network traffic. [4]",
+            "source_ref": "malware--9af4a781-0332-4ac3-86f4-3ffe2074ddee",
+            "target_ref": "malware-behavior--1719035a-b2cb-40a2-b721-f793c5947a9a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

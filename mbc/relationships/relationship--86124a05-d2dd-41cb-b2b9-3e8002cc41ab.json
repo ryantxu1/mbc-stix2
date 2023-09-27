@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--32963e76-468b-45e3-aa0e-5a6461b9f7ac",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--86124a05-d2dd-41cb-b2b9-3e8002cc41ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.487741Z",
+            "modified": "2023-09-27T14:45:12.487741Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging (F0002) -- Keylogger plugin allows for collection of keystrokes. [2]",
+            "source_ref": "malware--2bf9105d-5791-4e25-b231-944dc7ec724f",
+            "target_ref": "malware-behavior--93e06d33-d818-4cd9-ae31-65ad22c20154",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

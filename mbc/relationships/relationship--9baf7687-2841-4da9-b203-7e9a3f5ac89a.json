@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4db8942-9a0e-40c7-a436-9dd9fbf532f0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9baf7687-2841-4da9-b203-7e9a3f5ac89a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.653178Z",
+            "modified": "2023-09-27T14:45:12.653178Z",
+            "relationship_type": "uses",
+            "description": "Lateral Movement::Lateral Tool Transfer (T1570) -- Vobfus drops copies of itself to any external drives or network shares attached to the infected system.  [1]",
+            "source_ref": "malware--553dde1a-e1f7-40ea-9588-1c5fd5bdd67c",
+            "target_ref": "attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

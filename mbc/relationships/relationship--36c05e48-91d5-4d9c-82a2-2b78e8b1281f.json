@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--503ff44d-78b3-43e5-905b-4145bf90b3c5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--36c05e48-91d5-4d9c-82a2-2b78e8b1281f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.41811Z",
+            "modified": "2023-09-27T14:45:10.41811Z",
+            "relationship_type": "uses",
+            "description": "Data::Compression Library (C0060) -- DarkComet linked against ZLIB. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "malware-behavior--db5067ab-4a4a-47c5-8a2f-c5c799ecbf7c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

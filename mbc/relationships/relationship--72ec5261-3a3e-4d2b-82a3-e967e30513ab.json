@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--012005ae-c835-4e3d-8e08-e9a8afbfa8a9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--72ec5261-3a3e-4d2b-82a3-e967e30513ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.086951Z",
+            "modified": "2023-09-27T14:45:15.086951Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Proxy (T1090) -- The malware uses mitmproxy to intercept and modify web traffic. [1]",
+            "source_ref": "malware--121f31bc-94a5-498b-a659-ec81bb05b0bb",
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--982409c3-8ae2-4beb-83a4-c4f2002b54ac",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6b85be3c-c85c-47f1-a360-3a360a9d47b7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.770771Z",
+            "modified": "2023-09-27T14:45:10.770771Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- DNSChanger allocates RWX memory. [3]",
+            "source_ref": "malware--e8e7c0d8-9563-4bfc-87ae-8179d4bf1e6e",
+            "target_ref": "malware-behavior--b6e93452-d4d5-40da-b0ce-8f332122d0d6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

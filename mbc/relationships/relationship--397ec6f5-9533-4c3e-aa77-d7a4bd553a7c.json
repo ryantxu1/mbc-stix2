@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--371e64c3-e48f-4ab1-84a5-25b3e097ac5f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--397ec6f5-9533-4c3e-aa77-d7a4bd553a7c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.421598Z",
+            "modified": "2023-09-27T14:45:10.421598Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- DarkComet reads files on Windows. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "malware-behavior--0a964aa9-675f-4be2-89d5-27dd2dc63499",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--423161a0-3af2-44aa-a037-2bc191961b73",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--98c1ca74-0b2e-4e00-a045-c84f5e9359d7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.407021Z",
+            "modified": "2023-09-27T14:45:13.407021Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Modify Registry (E1112) -- The malware modifies the registry during execution. [2]",
+            "source_ref": "malware--d011f078-1da9-4721-8b73-26891d894cc4",
+            "target_ref": "malware-behavior--f93a1c78-1a05-428c-9c79-79d7700e7eeb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

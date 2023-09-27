@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--075500fa-eaa4-439b-89c9-97fe30d63e31",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e94f7b2c-8867-4194-b563-ed2969ad06a7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.647738Z",
+            "modified": "2023-09-27T14:45:23.647738Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- Hupigon encodes data using XOR. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-method--9aeaac70-0c59-48fb-ad74-ce5f7cecfd08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

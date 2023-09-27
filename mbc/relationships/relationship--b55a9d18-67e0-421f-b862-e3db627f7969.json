@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e59d1ec6-b7c8-44e8-b36e-014d3650cf4e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b55a9d18-67e0-421f-b862-e3db627f7969",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.761002Z",
+            "modified": "2023-09-27T14:45:14.761002Z",
+            "relationship_type": "uses",
+            "description": "Communication::Socket Communication::Initialize Winsock Library (C0001.009) -- Shamoon initializes a Winsock library. [5]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "malware-method--f2d7421a-c2bd-4a73-963c-d664769dc759",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

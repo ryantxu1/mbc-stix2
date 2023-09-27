@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--15fa8b0e-8ba2-45f1-b796-9342d76f940b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--719610b0-949d-4152-be7e-a762422192d1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.285973Z",
+            "modified": "2023-09-27T14:45:24.285973Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Domain Name Generation (B0031) -- Kraken uses a domain name generator to provide new domains. [1]",
+            "source_ref": "malware--c1a47f11-65c9-4b01-8015-00958c8f2f79",
+            "target_ref": "malware-behavior--7048c722-2d39-46a7-9cba-0b514eced41b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

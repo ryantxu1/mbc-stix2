@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--05da2bd5-e7f7-4553-a5cb-1d88b8226c67",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a9aaec87-1714-4801-8277-f125bfd6e2a3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.843269Z",
+            "modified": "2023-09-27T14:45:24.843269Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Enumerate PE Sections (B0046.001) -- Locky Bart enumerates PE sections. [2]",
+            "source_ref": "malware--665319d9-da4e-4139-a330-be1a66247317",
+            "target_ref": "malware-method--28298ed7-81a1-4f52-b293-aaa96f19f29e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

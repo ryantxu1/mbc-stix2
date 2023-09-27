@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--20e62e30-20b6-4eb5-9f25-15b5293564c4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--78a2f031-3124-4a1b-90c5-4bd349c9b6a1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.321275Z",
+            "modified": "2023-09-27T14:45:12.321275Z",
+            "relationship_type": "uses",
+            "description": "Collection::Input Capture (E1056) -- The malware injects HTML into a browser session to collect sensitive online banking information when the victim performs their online banking. [5]",
+            "source_ref": "malware--9af4a781-0332-4ac3-86f4-3ffe2074ddee",
+            "target_ref": "malware-behavior--50390824-e28e-4987-80bc-039315fc4b46",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

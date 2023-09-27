@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1f587ec9-9c6e-451d-a662-981987751e97",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1302bba1-e51a-4d9e-8d6c-f3a3bbb8bb30",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.456613Z",
+            "modified": "2023-09-27T14:45:21.456613Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- Redhip encodes data using XOR. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-method--9aeaac70-0c59-48fb-ad74-ce5f7cecfd08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

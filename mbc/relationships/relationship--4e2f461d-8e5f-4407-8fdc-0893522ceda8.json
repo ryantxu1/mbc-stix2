@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ce8f285-0adb-43f5-8a08-a089d795e227",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4e2f461d-8e5f-4407-8fdc-0893522ceda8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:20.922031Z",
+            "modified": "2023-09-27T14:45:20.922031Z",
+            "relationship_type": "uses",
+            "description": "Impact::Clipboard Modification (E1510) -- Emotet writes clipboard data. [6]",
+            "source_ref": "malware--3548084c-f234-4ed7-bcaf-a01398ff4e44",
+            "target_ref": "malware-behavior--27505642-3823-43c2-89bb-feca90f9d6e3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

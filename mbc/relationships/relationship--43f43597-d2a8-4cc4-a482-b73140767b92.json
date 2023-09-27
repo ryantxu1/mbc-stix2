@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c74584e8-6a8f-4c2c-b2bd-15b767882178",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--43f43597-d2a8-4cc4-a482-b73140767b92",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.429791Z",
+            "modified": "2023-09-27T14:45:19.429791Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (T1059) -- ElectroRat uses Python to embed additional binares. [1]",
+            "source_ref": "malware--230e70a7-70f1-4a17-8de3-ee0f306a9a86",
+            "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

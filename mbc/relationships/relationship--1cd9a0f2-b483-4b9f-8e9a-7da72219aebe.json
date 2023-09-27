@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9444de04-f294-474c-83c6-62b8e4cf2709",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1cd9a0f2-b483-4b9f-8e9a-7da72219aebe",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.462241Z",
+            "modified": "2023-09-27T14:45:21.462241Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- Redhip creates a process on Windows. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--3df7f51c-6481-405e-bffd-32eac499be3e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f017567-5350-4c32-8af2-4a4d140317d4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c52f1fb5-1b6e-4728-a989-51792316e35b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.004696Z",
+            "modified": "2023-09-27T14:45:19.004696Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- GoBotKR can download additional files and update itself. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "malware-behavior--8445a70a-a0de-4b41-b332-6700946de631",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

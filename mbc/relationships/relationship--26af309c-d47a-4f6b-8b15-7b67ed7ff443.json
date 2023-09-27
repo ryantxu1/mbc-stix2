@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--acc13ad5-94ef-47e0-9f2c-72470c688048",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--26af309c-d47a-4f6b-8b15-7b67ed7ff443",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.148098Z",
+            "modified": "2023-09-27T14:45:12.148098Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process::Create Suspended Process (C0017.003) -- TrickBot creates a suspended process. [7]",
+            "source_ref": "malware--1827d3cd-191a-46be-a9a9-7d0033714fa3",
+            "target_ref": "malware-method--03c8d413-a177-4427-a6aa-ece7ee260390",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

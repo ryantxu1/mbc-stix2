@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed1cf73d-667f-4538-b6f2-fb5f33d6de01",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a005734b-4d4f-4612-a666-d87b2673dc96",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.39474Z",
+            "modified": "2023-09-27T14:45:12.39474Z",
+            "name": "Ursnif URL",
+            "description": "This is an IoC for Ursnif",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ url:value = 'hxxp://62.138.9[.]11/vnc32.dll' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-27T14:45:12.39474Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

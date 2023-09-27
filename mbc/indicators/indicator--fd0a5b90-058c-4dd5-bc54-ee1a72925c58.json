@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--19b46eae-3a60-46db-852b-91a48fe9629a",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fd0a5b90-058c-4dd5-bc54-ee1a72925c58",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:09.785552Z",
+            "modified": "2023-09-27T14:45:09.785552Z",
+            "name": "SamSam hash",
+            "description": "This is an IoC for SamSam",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '88e344977bf6451e15fe202d65471a5f75d22370050fe6ba4dfa2c2d0fae7828' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-27T14:45:09.785552Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

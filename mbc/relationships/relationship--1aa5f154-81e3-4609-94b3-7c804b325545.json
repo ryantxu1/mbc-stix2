@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b355fce0-3fa0-4369-bd10-4f2671225cbc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1aa5f154-81e3-4609-94b3-7c804b325545",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.424961Z",
+            "modified": "2023-09-27T14:45:10.424961Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- DarkComet creates a  process on Windows. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "malware-behavior--3df7f51c-6481-405e-bffd-32eac499be3e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

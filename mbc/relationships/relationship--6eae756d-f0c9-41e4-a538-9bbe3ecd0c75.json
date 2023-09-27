@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--977ce4ef-17c6-4ace-9a5a-421fadd197eb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6eae756d-f0c9-41e4-a538-9bbe3ecd0c75",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.458909Z",
+            "modified": "2023-09-27T14:45:21.458909Z",
+            "relationship_type": "uses",
+            "description": "File System::Get File Attributes (C0049) -- Redhip gets file attributes. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--f9c25479-84f7-4bdf-8b47-50a516ac7d4a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

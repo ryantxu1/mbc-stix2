@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9a3f5307-cf45-42a0-9e27-57e3379e3c5b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6dd8ddf7-a3c6-4f18-8bdd-77036878f114",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.408227Z",
+            "modified": "2023-09-27T14:45:13.408227Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging::Polling (F0002.002) -- Kovter logs keystrokes via polling. [3]",
+            "source_ref": "malware--d011f078-1da9-4721-8b73-26891d894cc4",
+            "target_ref": "malware-method--7e8df735-0b1b-4059-a4e3-5580f28e0288",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--270cea29-6feb-4748-a245-2a60ee387b5b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--db839b66-35a4-436e-b0c7-e9a31981c867",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.533915Z",
+            "modified": "2023-09-27T14:45:15.533915Z",
+            "relationship_type": "uses",
+            "description": "Impact::Remote Access (B0022) -- After the Poison Ivy server is running on the target machine, the attacker uses a Windows GUI client to control the target computer. [1]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-behavior--76c6a497-35d6-4d38-8aff-264ecd6b82a1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

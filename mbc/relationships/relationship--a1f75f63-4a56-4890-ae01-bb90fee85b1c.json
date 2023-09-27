@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a50515ac-e239-4c93-ac9e-94535d8a92b6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a1f75f63-4a56-4890-ae01-bb90fee85b1c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.995052Z",
+            "modified": "2023-09-27T14:45:23.995052Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) --  Upon execution, Clipminer drops a file masquerading as a Control Panel (CPL) file. [1]",
+            "source_ref": "malware--6ece3625-2e43-4d47-85f5-0fc185c41cdd",
+            "target_ref": "malware-behavior--5573e81a-a1ed-438a-b835-01eebb182b1c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

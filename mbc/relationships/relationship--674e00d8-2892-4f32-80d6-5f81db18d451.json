@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fa98a9fb-2e7f-40b0-bfd2-d078e19499c2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--674e00d8-2892-4f32-80d6-5f81db18d451",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.014657Z",
+            "modified": "2023-09-27T14:45:16.014657Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- CryptoLocker encodes data using XOR. [2]",
+            "source_ref": "malware--7a71c695-35c9-42c3-af85-23836a034dd0",
+            "target_ref": "malware-method--9aeaac70-0c59-48fb-ad74-ce5f7cecfd08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

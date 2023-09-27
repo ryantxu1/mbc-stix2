@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--04ca60ac-b8a0-4f39-9bd9-6b947925e18b",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c82eeb18-7c55-490b-98eb-5effde99ec93",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.840421Z",
+            "modified": "2023-09-27T14:45:10.840421Z",
+            "name": "DNSChanger hash",
+            "description": "This is an IoC for DNSChanger",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = 'c2ef46a1b6292f28c0caf08013577e8559c4b0a71bf6fc058968061a3d71ede2' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-27T14:45:10.840421Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

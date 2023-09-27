@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--76417358-e8d5-40aa-bb20-a1a2be57d13c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6493ee95-d78d-4bf0-ad55-5f615f7a05cd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:11.959836Z",
+            "modified": "2023-09-27T14:45:11.959836Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Sandbox Detection::Test API Routines (B0007.010) -- The malware checks for sandboxes that suppress errors returned from API routine calls the using ZwGetWriteWatch routine. [1]",
+            "source_ref": "malware--c2b4a73e-ba73-4cf8-8e71-49e2f56847dc",
+            "target_ref": "malware-method--5d4c353b-6168-4c8f-b1c1-0237b66ad68f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

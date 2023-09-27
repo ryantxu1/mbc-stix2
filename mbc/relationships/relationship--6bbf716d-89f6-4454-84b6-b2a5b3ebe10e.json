@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a29e6894-d382-4c1d-a665-6eff63994750",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6bbf716d-89f6-4454-84b6-b2a5b3ebe10e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.523926Z",
+            "modified": "2023-09-27T14:45:21.523926Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information (E1027) -- Netwalker is obfuscated with several layers of encoding, obfuscation, and encryption techniques such as Base64, hexademcimal, and XOR. [1]",
+            "source_ref": "malware--acc25a07-e80b-44e8-9b72-ba0493688fa5",
+            "target_ref": "malware-behavior--9e2b1d4a-592e-4152-8950-3dd4e1aaab35",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

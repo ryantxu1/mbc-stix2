@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--660c1742-b209-4fba-a5ed-5990f06cc48c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a39e82e5-08f0-4a5c-a7bf-008f43503eec",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.255986Z",
+            "modified": "2023-09-27T14:45:10.255986Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Location Discovery (T1614) -- The malware gets the geographical location. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

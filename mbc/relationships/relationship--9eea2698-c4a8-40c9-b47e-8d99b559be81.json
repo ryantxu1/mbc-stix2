@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8ddad250-d234-426f-8ede-57fe52c5328e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9eea2698-c4a8-40c9-b47e-8d99b559be81",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.652894Z",
+            "modified": "2023-09-27T14:45:21.652894Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Heriplor accesses PEB ldr_data. [3]",
+            "source_ref": "malware--0c2626e9-3c95-40aa-a045-bd1d8193b3ce",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

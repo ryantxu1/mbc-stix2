@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--34ee743b-85b5-408e-a20c-651f3fe73800",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dde6816b-a824-4aca-9011-41dcac8bd9c4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.659407Z",
+            "modified": "2023-09-27T14:45:23.659407Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Delete Registry Value (C0036.007) -- Hupigon deletes registry values. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-method--b804c83f-ded7-4c96-88c2-a55824543238",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

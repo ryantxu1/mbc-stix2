@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3faca3aa-16c9-41ea-a0e6-094967877558",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7491cc10-1c78-4118-8be5-b225413d4aa2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.839191Z",
+            "modified": "2023-09-27T14:45:24.839191Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- Locky Bart gets a file size. [2]",
+            "source_ref": "malware--665319d9-da4e-4139-a330-be1a66247317",
+            "target_ref": "malware-behavior--b5358cc7-381e-4609-9a57-aaa0df4dcdce",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

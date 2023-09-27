@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cfe69c3f-3d46-4fe3-91e3-a1cb2057b61d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e52ca5e7-9417-4d99-9040-3b20afd90b3c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.409394Z",
+            "modified": "2023-09-27T14:45:10.409394Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging::Polling (F0002.002) -- DarkComet logs keystrokes via polling. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "malware-method--7e8df735-0b1b-4059-a4e3-5580f28e0288",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

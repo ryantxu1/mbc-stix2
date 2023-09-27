@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--67a2bf99-7567-4c4d-8b77-ab5d3c7921ce",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--33a0bb02-0cc6-46c8-bfa0-1b4a62748b20",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.824576Z",
+            "modified": "2023-09-27T14:45:21.824576Z",
+            "relationship_type": "uses",
+            "description": "Impact::Destroy Hardware (B0017) -- Stuxnet made the centrifuges at Iran's nuclear plant spin dangerously fast for 15 minutes, before returning to normal speed. About a month later, it slowed the centrifuges down for 50 minutes. This was repeated for several months, and over time the strain destroyed the machines. [1]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-behavior--f38e5489-49da-4366-83cf-24215f035b52",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

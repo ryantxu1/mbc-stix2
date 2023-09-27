@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--313d96e0-698b-4d97-8a48-cd880c651ba5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9fee4f1f-a643-4832-b30c-7fbc29c5f02e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.414616Z",
+            "modified": "2023-09-27T14:45:13.414616Z",
+            "relationship_type": "uses",
+            "description": "File System::Copy File (C0045) -- Kovter copies files. [3]",
+            "source_ref": "malware--d011f078-1da9-4721-8b73-26891d894cc4",
+            "target_ref": "malware-behavior--ade59c83-c5d5-4f13-8302-0fc0e4f6228e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

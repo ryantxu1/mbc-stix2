@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--32b71dd3-ed7f-43ff-8063-4b92fb5f83c1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ce29e1c0-bbdf-44aa-acc3-e8dbec95eed4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.454747Z",
+            "modified": "2023-09-27T14:45:21.454747Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::Process Environment Block BeingDebugged (B0001.035) -- Redhip checks for PEB BeingDebugged flag. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-method--4027265d-a2ef-496a-9b13-2bc44ad5e226",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

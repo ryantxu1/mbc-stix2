@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2fc93d50-a82f-428f-ba52-043767941863",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3d49f5fb-ded4-4563-9302-3bdb23f745ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.457259Z",
+            "modified": "2023-09-27T14:45:21.457259Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Taskbar Discovery (B0043) -- Redhip finds taskbars. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--80ef5ba8-a9dc-4f6c-8598-85bbca298c04",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

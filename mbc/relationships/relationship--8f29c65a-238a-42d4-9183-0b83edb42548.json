@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4b0ea5e0-ae7a-459f-800a-6ac94bc2ad27",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8f29c65a-238a-42d4-9183-0b83edb42548",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.050834Z",
+            "modified": "2023-09-27T14:45:17.050834Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Obfuscation::Entry Point Obfuscation (B0032.009) -- The malware has 4 different export functions.  [1]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "malware-method--e79c68a1-55d0-4c38-b624-24c3e76b0dd8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

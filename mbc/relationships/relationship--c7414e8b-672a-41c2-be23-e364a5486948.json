@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9dcd0757-7390-49c9-b8c4-aa90d5599e5d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c7414e8b-672a-41c2-be23-e364a5486948",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.53188Z",
+            "modified": "2023-09-27T14:45:15.53188Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- After the Poison Ivy server is running on the target machine, the attacker uses a Windows GUI client to control the target computer. [1]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-behavior--c343aac2-9261-4eb5-9b82-8aa302ec5be8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

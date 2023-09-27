@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4a356453-753d-42f1-aa0e-7732d0ad372f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--433478cb-276c-45fa-86b7-19c0c0d7ee1e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.831387Z",
+            "modified": "2023-09-27T14:45:21.831387Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- Stuxnet terminates processes. [2]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-behavior--5c8a835f-b6c5-47bb-b545-eebe89b9fb9e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

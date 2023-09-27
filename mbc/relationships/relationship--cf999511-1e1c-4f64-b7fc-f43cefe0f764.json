@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1ac86e66-143e-471a-b579-f8fbd8b5e5e0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cf999511-1e1c-4f64-b7fc-f43cefe0f764",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.508471Z",
+            "modified": "2023-09-27T14:45:22.508471Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Gamut queries environment variables. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-behavior--5bc0ca72-23ae-4830-a813-6186c3ea9a38",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

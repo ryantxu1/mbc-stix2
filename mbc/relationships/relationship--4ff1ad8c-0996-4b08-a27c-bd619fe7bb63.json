@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b5d03ef7-1098-4bf7-9214-6874d1ed4f2f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4ff1ad8c-0996-4b08-a27c-bd619fe7bb63",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.453802Z",
+            "modified": "2023-09-27T14:45:21.453802Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection (B0001) -- Redhip uses general approaches to detecting user level debuggers (e.g., Process Environment Block 'Being Debugged' field), as well as specific checks for kernel level debuggers like SOFTICE. [1]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-behavior--5b8ad60c-685c-468e-9ca3-d5d8616ebef6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

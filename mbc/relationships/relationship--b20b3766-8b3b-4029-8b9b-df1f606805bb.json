@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--379815d5-fac6-4967-9c50-b69ee1fdff26",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b20b3766-8b3b-4029-8b9b-df1f606805bb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.819212Z",
+            "modified": "2023-09-27T14:45:21.819212Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding (E1027.m01) -- The configuration data block is encoded with a NOT XOR 0xFF operation. [1]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-method--aeb1aee4-4608-4136-b5b4-da2b17c63a8b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

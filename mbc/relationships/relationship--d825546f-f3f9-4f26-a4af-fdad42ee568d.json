@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cfec7a20-9b4b-4209-9ae8-39f3c5885ec9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d825546f-f3f9-4f26-a4af-fdad42ee568d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.41982Z",
+            "modified": "2023-09-27T14:45:10.41982Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- DarkComet contains an embedded PE file. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "malware-behavior--5573e81a-a1ed-438a-b835-01eebb182b1c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

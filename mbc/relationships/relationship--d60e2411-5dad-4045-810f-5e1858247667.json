@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6bdc8182-5c87-4868-ba71-2e911530c788",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d60e2411-5dad-4045-810f-5e1858247667",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:18.534997Z",
+            "modified": "2023-09-27T14:45:18.534997Z",
+            "relationship_type": "uses",
+            "description": "Lateral Movement::Ingress Tool Transfer (T1105) --  GoBotKR attempts to copy itself into public folders of cloud storage services (Google Drive, Dropbox, OneDrive). [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

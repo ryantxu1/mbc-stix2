@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--08534dbb-73a8-4771-9085-4b26b48b28d8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a800a086-ddf1-416d-888e-82b6ac82a69b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.5302Z",
+            "modified": "2023-09-27T14:45:15.5302Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection (E1055) -- Code is injected into explorer.exe. [2]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-behavior--e0771829-0c47-47cb-ba08-fc32af663c4a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--63239a84-86ab-4601-8862-d5f3fed87747",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0d3ba5ca-f3d0-491d-a1ef-46fbec423373",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.553885Z",
+            "modified": "2023-09-27T14:45:19.553885Z",
+            "relationship_type": "uses",
+            "description": "Collection::Input Capture (E1056) -- ElectroRat monitors keyboard and mouse activity to determine whether the machine is in use. [1]",
+            "source_ref": "malware--230e70a7-70f1-4a17-8de3-ee0f306a9a86",
+            "target_ref": "malware-behavior--50390824-e28e-4987-80bc-039315fc4b46",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

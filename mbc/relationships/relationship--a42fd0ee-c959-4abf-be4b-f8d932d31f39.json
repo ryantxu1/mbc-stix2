@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1d700ab5-0b8c-40a0-8e84-de3ad9a06502",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a42fd0ee-c959-4abf-be4b-f8d932d31f39",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.656184Z",
+            "modified": "2023-09-27T14:45:23.656184Z",
+            "relationship_type": "uses",
+            "description": "File System::Set File Attributes (C0050) -- Hupigon sets file attributes. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-behavior--44d6b8b4-f610-4003-901a-fe2c67ffd4a2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3018f639-b24f-45a7-94c5-febaa55778ac",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6b4eabc9-63cc-44d6-a1f4-7dcf4f65606d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.053563Z",
+            "modified": "2023-09-27T14:45:17.053563Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- Malware loader decrypts inner configurations (C2 server address, C2 server's gate, and a string for the RC4 encryption key for communication between the malware and the C2 server) stored in the binary. The malware also encrypts the value of each JSON key with RC4 and encodes the value with Base64. [2]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "malware-method--46200df3-c154-4260-903b-e6b9e3daae1d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

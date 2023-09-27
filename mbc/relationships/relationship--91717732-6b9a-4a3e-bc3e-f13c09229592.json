@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6e489af-d603-4397-8d0b-f7f6a6ac90dd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--91717732-6b9a-4a3e-bc3e-f13c09229592",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:09.693124Z",
+            "modified": "2023-09-27T14:45:09.693124Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- SamSam uses a batch file for executing the malware and deleting certain components. [3]",
+            "source_ref": "malware--ee22147b-c246-4af7-b70b-8817148a14dd",
+            "target_ref": "malware-behavior--c343aac2-9261-4eb5-9b82-8aa302ec5be8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e4acf178-9161-4eca-9cee-40f532bd7790",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8178086b-8a31-4c6a-b036-3f73c43ee4c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.649887Z",
+            "modified": "2023-09-27T14:45:23.649887Z",
+            "relationship_type": "uses",
+            "description": "File System::Copy File (C0045) -- Hupigon copies files. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-behavior--ade59c83-c5d5-4f13-8302-0fc0e4f6228e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

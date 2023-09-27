@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--91fc4351-5cfd-4288-a3bd-a2cbbc3869db",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--072d6cde-234f-4fc4-9e40-ab63cbe06e9b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.228412Z",
+            "modified": "2023-09-27T14:45:22.228412Z",
+            "relationship_type": "uses",
+            "description": "Collection::Data from Local System (T1005) -- BadUSB can steal sensitive data from an infected machine (e.g., login credentials) and transmit it to a remote C2 server. [3]",
+            "source_ref": "malware--27695a58-00f9-4ccf-948e-e5a75a6001e9",
+            "target_ref": "attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

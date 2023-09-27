@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ced3bda7-11fe-413e-bae2-2134103add35",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4b387cff-b49a-47fa-be7b-29a8f3859c1c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.250987Z",
+            "modified": "2023-09-27T14:45:15.250987Z",
+            "relationship_type": "uses",
+            "description": "Execution::Execution Dependency (B0044) -- Adwind jRAT uses standard Java commands to mask its behavior. [1]",
+            "source_ref": "malware--d58f75eb-13aa-4f19-b5c3-ca6d2546dcc4",
+            "target_ref": "malware-behavior--8c74047d-2c99-4d33-b4b2-9b7abba95e8a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

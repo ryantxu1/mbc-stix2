@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe157a55-db6d-42a6-bdc9-b92b7d04fe36",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0e0abf2d-435d-4631-b124-94dc1b3b47e7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.538265Z",
+            "modified": "2023-09-27T14:45:15.538265Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- Poison Ivy queries or enumerates registry values. [5]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-method--b804c83f-ded7-4c96-88c2-a55824543238",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

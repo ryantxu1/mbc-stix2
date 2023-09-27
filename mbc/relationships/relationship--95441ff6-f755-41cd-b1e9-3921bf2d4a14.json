@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4e99b2e-e171-4fe9-badd-01ffa6d0b95b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--95441ff6-f755-41cd-b1e9-3921bf2d4a14",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.322625Z",
+            "modified": "2023-09-27T14:45:12.322625Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging::Polling (F0002.002) -- Ursnif logs keystrokes via polling. [6]",
+            "source_ref": "malware--9af4a781-0332-4ac3-86f4-3ffe2074ddee",
+            "target_ref": "malware-method--7e8df735-0b1b-4059-a4e3-5580f28e0288",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--b617da64-8bcd-4fde-a12f-f12678bb39ee",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d89f0d7c-dd30-4426-b698-1ecd0e376939",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.884781Z",
+            "modified": "2023-09-27T14:45:13.884781Z",
+            "name": "Bagle hash",
+            "description": "This is an IoC for Bagle",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = 'e3711dc2049c37e14449066450da86ca1c9a96fecdadbb3ed9d594564b5a829e' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-27T14:45:13.884781Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

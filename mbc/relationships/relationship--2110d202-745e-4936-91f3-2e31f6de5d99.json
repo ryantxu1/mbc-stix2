@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1dc13c93-0c36-4c76-a8ad-4676a9bda0eb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2110d202-745e-4936-91f3-2e31f6de5d99",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.809404Z",
+            "modified": "2023-09-27T14:45:13.809404Z",
+            "relationship_type": "uses",
+            "description": "Execution::Prevent Concurrent Execution (B0024) -- Some Bagle variants look for an unnamed mutex to ensure only one copy of itself is running on a system. [1]",
+            "source_ref": "malware--0037b4ac-5ff9-4dca-9ed8-88153f70c81e",
+            "target_ref": "malware-behavior--9f3ab7c7-926d-440b-beac-7b092f85ff9c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

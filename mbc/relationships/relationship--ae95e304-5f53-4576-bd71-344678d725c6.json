@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe2d59f4-6863-4a1a-83db-84834b98b335",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ae95e304-5f53-4576-bd71-344678d725c6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.419001Z",
+            "modified": "2023-09-27T14:45:13.419001Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Mutex (C0042) -- Kovter creates mutexes. [3]",
+            "source_ref": "malware--d011f078-1da9-4721-8b73-26891d894cc4",
+            "target_ref": "malware-behavior--b876b415-aa05-48d5-b1cb-4cc3482600ea",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

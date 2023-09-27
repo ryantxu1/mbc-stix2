@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7e84a25c-189d-4268-bb31-1db0eb7966d2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7283f212-a303-458a-b9f0-39bc38171ad9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.355307Z",
+            "modified": "2023-09-27T14:45:14.355307Z",
+            "relationship_type": "uses",
+            "description": "File System::Move File (C0063) -- Mebromi moves files. [2]",
+            "source_ref": "malware--60e05661-0641-4dd5-83e1-d398b1e172c0",
+            "target_ref": "malware-behavior--3bf88764-35f7-4384-a7d8-eef9e80aa6c8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

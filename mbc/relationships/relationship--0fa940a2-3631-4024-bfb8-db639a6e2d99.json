@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf1f93d2-2f71-4a7f-96ab-5c834c1379df",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0fa940a2-3631-4024-bfb8-db639a6e2d99",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.414118Z",
+            "modified": "2023-09-27T14:45:10.414118Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery::Window Text (E1010.m01) -- DarkComet gets graphical window text. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "malware-method--c5e143b6-2e15-414d-9b17-99740707720d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

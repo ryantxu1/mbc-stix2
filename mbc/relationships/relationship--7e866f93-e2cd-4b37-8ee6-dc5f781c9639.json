@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--92d4d65b-610c-4e5c-beca-dc272a482d55",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7e866f93-e2cd-4b37-8ee6-dc5f781c9639",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.492438Z",
+            "modified": "2023-09-27T14:45:12.492438Z",
+            "relationship_type": "uses",
+            "description": "Communication::HTTP Communication::IWebBrowser (C0002.010) -- The malware initializes IWebBrowser2. [4]",
+            "source_ref": "malware--2bf9105d-5791-4e25-b231-944dc7ec724f",
+            "target_ref": "malware-method--13d8d271-046f-426e-aa61-9f6e35c8a69a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--03ce23fa-33b0-4f0e-a5bd-08657ca9a693",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4c006afb-0951-4cb0-a235-ae1e9610e0ad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.635809Z",
+            "modified": "2023-09-27T14:45:23.635809Z",
+            "relationship_type": "uses",
+            "description": "Impact::Clipboard Modification (E1510) -- Hupigon replaces clipboard data. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-behavior--27505642-3823-43c2-89bb-feca90f9d6e3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b3c217cb-2d7c-4472-83fe-2e7c096b54ba",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--314546b0-3ad2-4260-9784-05d368df9cac",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.015115Z",
+            "modified": "2023-09-27T14:45:16.015115Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Enumerate PE Sections (B0046.001) -- CryptoLocker enumerates PE sections. [2]",
+            "source_ref": "malware--7a71c695-35c9-42c3-af85-23836a034dd0",
+            "target_ref": "malware-method--28298ed7-81a1-4f52-b293-aaa96f19f29e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1564f5a1-b741-4d01-8896-a128a405e707",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9ec0b773-a42a-4162-bfe7-e7291fb4f8d2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:25.078701Z",
+            "modified": "2023-09-27T14:45:25.078701Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Query Registry (T1012) -- The malware queries certain registry keys. [1]",
+            "source_ref": "malware--35a347aa-e238-49aa-96e0-05e5042bf4dc",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

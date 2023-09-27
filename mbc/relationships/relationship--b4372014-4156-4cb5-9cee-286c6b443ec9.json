@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c9cd4d05-7f26-4d8f-bd1b-2595b6270091",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b4372014-4156-4cb5-9cee-286c6b443ec9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.148545Z",
+            "modified": "2023-09-27T14:45:12.148545Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- TrickBot terminates processes. [7]",
+            "source_ref": "malware--1827d3cd-191a-46be-a9a9-7d0033714fa3",
+            "target_ref": "malware-behavior--5c8a835f-b6c5-47bb-b545-eebe89b9fb9e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

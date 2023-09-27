@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--72093bec-4a77-4035-a880-746815c385f0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9d3bdb7e-bb8f-4d28-8bcb-7257c066fed9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.511534Z",
+            "modified": "2023-09-27T14:45:22.511534Z",
+            "relationship_type": "uses",
+            "description": "Impact::Spamming (B0039) -- If port 25 is open, the bot uses a spam template and email list to send spam. [1]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-behavior--bb4edc5a-45e6-43fe-8c46-3cfb447d01be",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

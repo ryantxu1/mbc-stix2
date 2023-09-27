@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d730dd4d-ed58-4f92-b389-6593ba42d71c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e2f9b953-ec47-4900-8981-766499c8e1e6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.347821Z",
+            "modified": "2023-09-27T14:45:24.347821Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- MazarBot installs a backdoor. [1]",
+            "source_ref": "malware--a62e220e-2064-4ef1-87ef-bb89c130e9dd",
+            "target_ref": "malware-behavior--5573e81a-a1ed-438a-b835-01eebb182b1c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

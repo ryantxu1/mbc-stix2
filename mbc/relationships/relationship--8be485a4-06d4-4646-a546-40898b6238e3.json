@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b38420bb-f71c-4d97-89e9-b50a6af00a06",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8be485a4-06d4-4646-a546-40898b6238e3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.49736Z",
+            "modified": "2023-09-27T14:45:12.49736Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- BlackEnergy creates a process on Windows. [4]",
+            "source_ref": "malware--2bf9105d-5791-4e25-b231-944dc7ec724f",
+            "target_ref": "malware-behavior--3df7f51c-6481-405e-bffd-32eac499be3e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

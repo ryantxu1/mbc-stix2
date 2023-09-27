@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c9b8a8f-6477-48c7-a098-96e18b819367",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9a56c13a-9b57-4a84-bb3e-aa08afda01a1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.137704Z",
+            "modified": "2023-09-27T14:45:12.137704Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection (E1055) -- The malware injects itself into svchost.exe. [2]",
+            "source_ref": "malware--1827d3cd-191a-46be-a9a9-7d0033714fa3",
+            "target_ref": "malware-behavior--e0771829-0c47-47cb-ba08-fc32af663c4a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

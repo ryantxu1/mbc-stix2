@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--72042f64-31d2-4695-b465-6551083c516b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e08c93ba-81e9-4876-9904-5a9f1c4a060c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:16.0068Z",
+            "modified": "2023-09-27T14:45:16.0068Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- The malware links many functions at runtime. [2]",
+            "source_ref": "malware--7a71c695-35c9-42c3-af85-23836a034dd0",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

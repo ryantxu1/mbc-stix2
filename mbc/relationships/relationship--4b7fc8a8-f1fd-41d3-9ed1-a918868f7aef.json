@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e034517f-75c9-4b85-92ad-51de3311c31d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4b7fc8a8-f1fd-41d3-9ed1-a918868f7aef",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.157379Z",
+            "modified": "2023-09-27T14:45:19.157379Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- The RAT sets \"2019\" as a Windows' startup folder by modifying a registry value. [1]",
+            "source_ref": "malware--9708e5c3-9a10-4d95-921d-f56e869dc99a",
+            "target_ref": "malware-behavior--1ff71015-ce36-44e6-ba7d-648e8715d1d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

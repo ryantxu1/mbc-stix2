@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bb0230a4-df95-4e4d-91cb-369fc0be475b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e3901c78-8175-412b-a31a-f36a98fa3bf3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:20.721352Z",
+            "modified": "2023-09-27T14:45:20.721352Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Environment Variable::Set Variable (C0034.001) -- UP007 sets environment variables. [2]",
+            "source_ref": "malware--690b21db-8385-4311-8ea6-c72d40f06024",
+            "target_ref": "malware-method--8794a14a-d574-4d2a-b4f5-fa6405a996ee",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

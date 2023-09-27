@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d5a37b6-4878-467d-be05-7ec5da22ed2e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--64140249-59a3-49db-93ba-ff96329f5171",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:23.632742Z",
+            "modified": "2023-09-27T14:45:23.632742Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging::Polling (F0002.002) -- Hupigon logs keystrokes via polling. [3]",
+            "source_ref": "malware--5e85cb3d-dfe8-43fd-a0ce-4a35169f1f46",
+            "target_ref": "malware-method--7e8df735-0b1b-4059-a4e3-5580f28e0288",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--685b2e20-5808-4085-a5cd-ab8ec7cfa8a6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f02a5c8e-a386-4831-8329-59f3c62cd142",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.770148Z",
+            "modified": "2023-09-27T14:45:10.770148Z",
+            "relationship_type": "uses",
+            "description": "File System::Write File (C0052) -- DNSChanger writes Fileon Windows. [3]",
+            "source_ref": "malware--e8e7c0d8-9563-4bfc-87ae-8179d4bf1e6e",
+            "target_ref": "malware-behavior--70405ee7-0861-4211-a429-876ae90d1a5f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

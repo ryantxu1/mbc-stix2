@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2adcd0fa-b9e1-4eef-8a0d-380355111616",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aa9d3ca9-5cd5-4073-987c-8569a959ce28",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.44992Z",
+            "modified": "2023-09-27T14:45:21.44992Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging::Application Hook (F0002.001) -- Redhip logs keystrokes via application hook. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "malware-method--7e8df735-0b1b-4059-a4e3-5580f28e0288",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

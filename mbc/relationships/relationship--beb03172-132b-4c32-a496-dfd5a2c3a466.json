@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e107da7a-b20f-431e-b6b5-e0e8558fd885",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--beb03172-132b-4c32-a496-dfd5a2c3a466",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.412038Z",
+            "modified": "2023-09-27T14:45:13.412038Z",
+            "relationship_type": "uses",
+            "description": "Communication::HTTP Communication::Connect to Server (C0002.009) -- Kovter connects to a HTTP server. [3]",
+            "source_ref": "malware--d011f078-1da9-4721-8b73-26891d894cc4",
+            "target_ref": "malware-method--13d8d271-046f-426e-aa61-9f6e35c8a69a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

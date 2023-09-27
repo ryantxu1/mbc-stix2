@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7f3b77b-e1bd-48f5-91e9-5fd107db9a59",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--89e07c6f-f8eb-455f-bf1f-0e88270cb71d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.552886Z",
+            "modified": "2023-09-27T14:45:24.552886Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encryption-Standard Algorithm (E1027.m05) -- Malware decrypts an embedded code buffer using an XOR-based stream cipher.  [1]",
+            "source_ref": "malware--02aadc73-0547-4e30-a703-7c5b677017c2",
+            "target_ref": "malware-method--aeb1aee4-4608-4136-b5b4-da2b17c63a8b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

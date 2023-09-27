@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5e5564fe-09c2-4ca0-97b2-aa84a6eb56af",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ca4e5211-4d0e-4615-966f-499fe45927c2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:18.926908Z",
+            "modified": "2023-09-27T14:45:18.926908Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Application Layer Protocol (T1071) -- GoBotKR uses HTTP or HTTPS for C&C. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

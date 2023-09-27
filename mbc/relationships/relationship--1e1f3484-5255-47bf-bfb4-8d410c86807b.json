@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b366b685-8410-4cef-ae4a-37932e74de12",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1e1f3484-5255-47bf-bfb4-8d410c86807b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:25.445725Z",
+            "modified": "2023-09-27T14:45:25.445725Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Analysis Tool Discovery::Process Detection - PCAP Utilities (B0013.004) -- When infecting a x64 architecture system, the malware terminates if Wireshark is running on the system. [1]",
+            "source_ref": "malware--35a347aa-e238-49aa-96e0-05e5042bf4dc",
+            "target_ref": "malware-method--a330e10a-758d-46e2-89b1-8c45310aa5f5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

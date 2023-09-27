@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b64d5546-987f-4820-a135-364e588c1d4d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ea370e78-2294-4222-bfa5-52748071f7d7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.155542Z",
+            "modified": "2023-09-27T14:45:19.155542Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Virtualization/Sandbox Evasion::User Activity Based Checks (T1497) -- The Terminator RAT evades sandboxes by not executing until after a reboot. Most sandboxes don't reboot during an analysis. [2]",
+            "source_ref": "malware--9708e5c3-9a10-4d95-921d-f56e869dc99a",
+            "target_ref": "attack-pattern--82caa33e-d11a-433a-94ea-9b5a5fbef81d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

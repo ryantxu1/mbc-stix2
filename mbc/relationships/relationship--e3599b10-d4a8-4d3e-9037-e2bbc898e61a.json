@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--99fcc077-27f5-4b26-a2e2-133295c32924",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e3599b10-d4a8-4d3e-9037-e2bbc898e61a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.000787Z",
+            "modified": "2023-09-27T14:45:22.000787Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- CozyCar requests a file using SSL to a C2 domain. [1]",
+            "source_ref": "malware--25f0668e-081b-4014-ade7-99f34cfe4cf6",
+            "target_ref": "malware-behavior--8445a70a-a0de-4b41-b332-6700946de631",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

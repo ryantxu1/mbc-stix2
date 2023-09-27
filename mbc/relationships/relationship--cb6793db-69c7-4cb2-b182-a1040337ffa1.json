@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--04fe96ba-9ba1-413f-963c-32f4968fe425",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cb6793db-69c7-4cb2-b182-a1040337ffa1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.76474Z",
+            "modified": "2023-09-27T14:45:10.76474Z",
+            "relationship_type": "uses",
+            "description": "Impact::Generate Traffic from Victim::Advertisement Replacement Fraud (E1643.m02) -- The malware alters DNS server settings to route to a rogue DNS server for the purpose of click hijacking. [1]",
+            "source_ref": "malware--e8e7c0d8-9563-4bfc-87ae-8179d4bf1e6e",
+            "target_ref": "malware-method--6772621e-c9b8-4ef6-a72f-10f54ee660a1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

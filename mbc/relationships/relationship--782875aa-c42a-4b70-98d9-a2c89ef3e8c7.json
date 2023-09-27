@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9c541b3d-1d27-4a25-938b-2951476dff82",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--782875aa-c42a-4b70-98d9-a2c89ef3e8c7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.487318Z",
+            "modified": "2023-09-27T14:45:12.487318Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Malware uses Systeminfo to gather OS version, system configuration, BIOS, the motherboard, and processor. [1]",
+            "source_ref": "malware--2bf9105d-5791-4e25-b231-944dc7ec724f",
+            "target_ref": "malware-behavior--5bc0ca72-23ae-4830-a813-6186c3ea9a38",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

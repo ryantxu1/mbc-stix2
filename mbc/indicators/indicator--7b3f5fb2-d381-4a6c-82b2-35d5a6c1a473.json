@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--e61f40f0-b5b2-419f-8ca7-3b7595ee2bcb",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7b3f5fb2-d381-4a6c-82b2-35d5a6c1a473",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.06355Z",
+            "modified": "2023-09-27T14:45:24.06355Z",
+            "name": "Clipminer hash",
+            "description": "This is an IoC for Clipminer",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '12e6883046e2c92cbe3b5706ea7f1181b44512f179c7f04e88e75f3f6e392a48' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-27T14:45:24.06355Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

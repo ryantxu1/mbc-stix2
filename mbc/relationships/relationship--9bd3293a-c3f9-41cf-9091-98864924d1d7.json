@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--57800117-a6fa-4360-9022-ad15b1de9e44",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9bd3293a-c3f9-41cf-9091-98864924d1d7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.048437Z",
+            "modified": "2023-09-27T14:45:17.048437Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Capture Evasion::Multiple Stages of Loaders (B0036.003) -- Malware consists of 2 loaders.  [2]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "malware-method--28158bc2-090c-472a-a230-fa6afc47f496",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

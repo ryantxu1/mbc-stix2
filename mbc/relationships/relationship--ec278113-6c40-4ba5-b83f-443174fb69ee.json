@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a7682c17-7084-46ea-be06-4be40821b417",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ec278113-6c40-4ba5-b83f-443174fb69ee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:17.056203Z",
+            "modified": "2023-09-27T14:45:17.056203Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Execute File (B0030.013) -- The payload is run by explorer.exe, potentially with parameters. [2]",
+            "source_ref": "malware--743fa329-562f-453d-88ef-91eb278c78cc",
+            "target_ref": "malware-method--67f52993-2239-4679-95a5-4b4b5e81ea9b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

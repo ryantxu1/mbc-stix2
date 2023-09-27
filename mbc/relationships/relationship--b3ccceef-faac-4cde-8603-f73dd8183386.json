@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9392760c-bfd4-440b-9f68-f003e6cc9ac8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b3ccceef-faac-4cde-8603-f73dd8183386",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.140313Z",
+            "modified": "2023-09-27T14:45:12.140313Z",
+            "relationship_type": "uses",
+            "description": "Exfiltration::Archive Collected Data::Encryption (E1560.m02) -- The malware uses a custom crypter leveraging Microsoft's CryptoAPI to encrypt C2 traffic. C2 update responses seem to have been digitally signed using bcrypt. [4]",
+            "source_ref": "malware--1827d3cd-191a-46be-a9a9-7d0033714fa3",
+            "target_ref": "malware-method--373f2831-52af-40ae-b046-bdf136b76778",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

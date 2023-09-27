@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--619dc221-0c05-496f-a0e6-854376551be7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dbd30bb5-8b3d-449b-b378-5ce11b003b90",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.828732Z",
+            "modified": "2023-09-27T14:45:21.828732Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Enumerate PE Sections (B0046.001) -- Stuxnet enumerates PE sections. [2]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-method--28298ed7-81a1-4f52-b293-aaa96f19f29e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

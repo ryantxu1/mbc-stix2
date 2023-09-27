@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--56e35a41-e1a0-46c5-9a1d-6cb49573cca0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ff41644c-553c-4511-bb32-3b0146134f65",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:10.177898Z",
+            "modified": "2023-09-27T14:45:10.177898Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Process Discovery (T1057) -- The malware gets process heap force flags. [4]",
+            "source_ref": "malware--1c5b1782-7ff2-402d-bf88-1e39ea499d76",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

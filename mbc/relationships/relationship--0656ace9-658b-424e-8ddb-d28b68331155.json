@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--568d959c-c0cc-4d97-81a8-41a139b2d461",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0656ace9-658b-424e-8ddb-d28b68331155",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.158292Z",
+            "modified": "2023-09-27T14:45:19.158292Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Send Data (B0030.001) -- The malware sends data to the C2. [2]",
+            "source_ref": "malware--9708e5c3-9a10-4d95-921d-f56e869dc99a",
+            "target_ref": "malware-method--67f52993-2239-4679-95a5-4b4b5e81ea9b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

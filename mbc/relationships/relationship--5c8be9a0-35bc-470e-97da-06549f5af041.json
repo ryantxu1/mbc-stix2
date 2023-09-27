@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e833bdb2-db4f-434d-a321-5e7b58e4b998",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5c8be9a0-35bc-470e-97da-06549f5af041",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:13.550651Z",
+            "modified": "2023-09-27T14:45:13.550651Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hijack Execution Flow::Abuse Windows Function Calls (F0015.006) -- GravityRAT abuses Microsoft's Dynamic Data Exchange (DDE) protocol. [2]",
+            "source_ref": "malware--b2ecde23-d7c0-4945-9ac1-8cf01c99ff5b",
+            "target_ref": "malware-method--96a8ef66-fffa-4410-8f39-810d749f78b3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

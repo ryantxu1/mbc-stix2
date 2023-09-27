@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--06adcd78-10cd-46ac-980c-0b0dcc40fd84",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c4655208-6cc6-4789-914a-0c00f36f47cb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:19.158674Z",
+            "modified": "2023-09-27T14:45:19.158674Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Dynamic Analysis Evasion::Delayed Execution (B0003.003) -- The Terminator RAT evades a sandbox by not executing until after a reboot. Most sandboxes don't reboot during an analysis. [1]",
+            "source_ref": "malware--9708e5c3-9a10-4d95-921d-f56e869dc99a",
+            "target_ref": "malware-method--e2737743-1631-43d6-be67-fa60ae285b12",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

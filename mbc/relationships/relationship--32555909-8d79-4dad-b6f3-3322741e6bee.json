@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--72d5118b-88e5-4957-86c1-927bc2031b92",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--32555909-8d79-4dad-b6f3-3322741e6bee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.582707Z",
+            "modified": "2023-09-27T14:45:14.582707Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Shamoon links many functions at runtime. [5]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

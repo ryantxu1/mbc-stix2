@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a267fbae-2941-41de-89bc-43235780c5c0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--51b83a6d-dda3-41d1-b693-e1c1177eefe1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:18.391062Z",
+            "modified": "2023-09-27T14:45:18.391062Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Owner/User Discovery (T1033) -- GoBotKR uses\u00a0whoami\u00a0to obtain information about the victimized user. It runs tests to determine the privilege level of the compromised user. [1]",
+            "source_ref": "malware--310d4db3-2f93-4c14-8b79-c1f70ce92488",
+            "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

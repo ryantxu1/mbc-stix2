@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--d821c768-f3fb-4d02-b636-5f441ebbb555",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a46f1f78-acb8-4847-9041-9731bb7c7695",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.242264Z",
+            "modified": "2023-09-27T14:45:15.242264Z",
+            "name": "SearchAwesome File Names",
+            "description": "This is an IoC for SearchAwesome",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = '~/Library/LaunchAgents/spid-uninstall.plist' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-09-27T14:45:15.242264Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ea5da93c-9edb-437f-bfeb-83f8dfc3d23b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5fe68ef4-26a2-4bb9-948d-a88f14a73138",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:15.531486Z",
+            "modified": "2023-09-27T14:45:15.531486Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- To start itself at system boot, Poison Ivy adds registry entries. [4]",
+            "source_ref": "malware--27ae45bc-74d7-4b4b-969d-a275a85ada35",
+            "target_ref": "malware-behavior--1ff71015-ce36-44e6-ba7d-648e8715d1d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--43f8e130-aa75-45ab-b79f-655b17351438",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b97b0d3b-19ce-4fed-a493-e4fc15da685a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.830395Z",
+            "modified": "2023-09-27T14:45:21.830395Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- Stuxnet allocates RWX memory. [2]",
+            "source_ref": "malware--d681b587-2d9e-4b75-8e1a-79bd74ec355a",
+            "target_ref": "malware-behavior--b6e93452-d4d5-40da-b0ce-8f332122d0d6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

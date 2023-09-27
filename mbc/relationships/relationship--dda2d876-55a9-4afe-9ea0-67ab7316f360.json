@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c8bd1d21-d6c3-4143-adfb-c898a564e337",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dda2d876-55a9-4afe-9ea0-67ab7316f360",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:22.507298Z",
+            "modified": "2023-09-27T14:45:22.507298Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery::Window Text (E1010.m01) -- Gamut gets a graphical window text. [3]",
+            "source_ref": "malware--fbfd1336-1465-4dfd-8f20-cb60fe87d383",
+            "target_ref": "malware-method--c5e143b6-2e15-414d-9b17-99740707720d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

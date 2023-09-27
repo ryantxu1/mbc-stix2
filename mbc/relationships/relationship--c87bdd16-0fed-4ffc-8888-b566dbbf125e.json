@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f45d9580-e7d6-477d-922c-9b9ad68db72b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c87bdd16-0fed-4ffc-8888-b566dbbf125e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:14.757568Z",
+            "modified": "2023-09-27T14:45:14.757568Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- Shamoon creates a folder on remote computers and then copies its executables (Shamoon and Filerase) into that directory. [3]",
+            "source_ref": "malware--fa8fa911-5f26-4214-aab6-576808909a91",
+            "target_ref": "malware-behavior--8445a70a-a0de-4b41-b332-6700946de631",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

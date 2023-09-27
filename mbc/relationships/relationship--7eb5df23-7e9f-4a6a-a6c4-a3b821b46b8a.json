@@ -1,0 +1,20 @@
+{
+    "type": "bundle",
+    "id": "bundle--afe7df4f-0a0b-42a8-94a7-06636d7aa958",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7eb5df23-7e9f-4a6a-a6c4-a3b821b46b8a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:12.391531Z",
+            "modified": "2023-09-27T14:45:12.391531Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--95536d86-361e-49a2-89dd-97c4087a115a",
+            "target_ref": "malware--9af4a781-0332-4ac3-86f4-3ffe2074ddee",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

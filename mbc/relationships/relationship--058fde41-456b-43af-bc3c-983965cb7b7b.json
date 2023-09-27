@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--76da0d2d-bdc9-415e-922c-48b8508d486c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--058fde41-456b-43af-bc3c-983965cb7b7b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:21.448397Z",
+            "modified": "2023-09-27T14:45:21.448397Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Redhip accesses PEB ldr_data. [2]",
+            "source_ref": "malware--689aaef5-0ec3-4b31-b702-9ee10657039b",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b53459a9-f58c-4fe6-80bb-b65760e090bd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8377d10a-2a56-40a6-b4b3-8df7e2f318e6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:20.924402Z",
+            "modified": "2023-09-27T14:45:20.924402Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Obfuscation::Junk Code Insertion (B0032.007) -- Emotet macros are heavily obfuscated with junk functions and string substitutions. [1]",
+            "source_ref": "malware--3548084c-f234-4ed7-bcaf-a01398ff4e44",
+            "target_ref": "malware-method--e79c68a1-55d0-4c38-b624-24c3e76b0dd8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

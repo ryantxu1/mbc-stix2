@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--10cf44a7-31dd-434f-a20e-628e3956bf9c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1b538ae3-9951-49d2-9947-f12672765dc7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-09-27T14:45:24.843675Z",
+            "modified": "2023-09-27T14:45:24.843675Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- Locky Bart reads files on Windows. [2]",
+            "source_ref": "malware--665319d9-da4e-4139-a330-be1a66247317",
+            "target_ref": "malware-behavior--0a964aa9-675f-4be2-89d5-27dd2dc63499",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}
